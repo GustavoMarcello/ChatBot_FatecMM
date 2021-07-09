@@ -1,0 +1,35 @@
+version: "2.0"
+
+rules:
+- rule: Fallback
+  steps:
+  - or:
+    - intent: nlu_fallback
+    - intent: fallback_intent
+  - action: action_default_fallback
+  
+- rule: Bot
+  steps:
+  - intent: bot_intent
+  - action: utter_bot
+
+- rule: Tchau
+  steps:
+  - intent: tchau_intent
+  - action: utter_tchau
+
+- rule: Obrigado
+  steps:
+  - intent: obrigado_intent
+  - action: utter_obrigado
+
+- rule: Faq
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: utter_faq/ask_reposta_nova
+
+- rule: Saudacao
+  steps:
+  - intent: saudacao_intent
+  - action: utter_saudacao

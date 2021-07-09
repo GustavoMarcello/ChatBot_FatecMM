@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Estagio",
+    "intent_response_key_target": "faq/vagas_emprego_estagio",
+    "intent_response_key_prediction": {
+      "name": "faq/equivalencia_estagio",
+      "confidence": 0.15086138248443604
+    }
+  },
+  {
+    "text": "Como faço para pedir Aproveitamento de estudos?",
+    "intent_response_key_target": "faq/aproveitamento_estudos",
+    "intent_response_key_prediction": {
+      "name": "faq/pedir_aproveitamento_estudos",
+      "confidence": 0.14047683775424957
+    }
+  },
+  {
+    "text": "estou vindo de outra faculdade, posso aproveitar as matérias",
+    "intent_response_key_target": "faq/aproveitamento_materias",
+    "intent_response_key_prediction": {
+      "name": "faq/pedir_aproveitamento_estudos",
+      "confidence": 0.15692633390426636
+    }
+  }
+]

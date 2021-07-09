@@ -1,0 +1,30 @@
+# version: "1.7"
+
+# stories:
+# - story: Tchau
+#   steps:
+#   - intent: tchau
+#   - action: utter_tchau
+  
+# - story: Eu sou um bot
+#   steps:
+#   - intent: bot
+#   - action: utter_bot
+
+
+# - story: saudacao
+#   steps:
+#   - intent: saudacao
+#   - action: utter_saudacao
+
+
+# - story: respond to FAQs
+#   steps:
+#   - intent: faq
+#   - action: utter_faq
+
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: obrigado
+#   - action: utter_obrigado

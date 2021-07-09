@@ -1,0 +1,842 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Chivo' rel='stylesheet' type='text/css'>
+  <base href="https://fatecmm.edu.br/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <link href="/templates/phoneapps-tg/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <title>Home</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    window.addEvent('load', function () {
+      new JCaption('img.caption');
+    });
+    JCEMediaBox.init({
+      popup: {
+        width: "",
+        height: "",
+        legacy: 0,
+        lightbox: 0,
+        shadowbox: 0,
+        resize: 1,
+        icons: 1,
+        overlay: 1,
+        overlayopacity: 0.8,
+        overlaycolor: "#000000",
+        fadespeed: 500,
+        scalespeed: 500,
+        hideobjects: 0,
+        scrolling: "scroll",
+        close: 2,
+        labels: {
+          'close': 'Close',
+          'next': 'Next',
+          'previous': 'Previous',
+          'cancel': 'Cancel',
+          'numbers': '{$current} of {$total}'
+        },
+        cookie_expiry: "",
+        google_viewer: 0,
+        pdfjs: 0
+      },
+      tooltip: {
+        className: "tooltip",
+        opacity: 0.8,
+        speed: 150,
+        position: "br",
+        offsets: {
+          x: 16,
+          y: 16
+        }
+      },
+      base: "/",
+      imgpath: "plugins/system/jcemediabox/img",
+      theme: "squeeze",
+      themecustom: "",
+      themepath: "plugins/system/jcemediabox/themes"
+    });
+
+    function keepAlive() {
+      var myAjax = new Request({
+        method: "get",
+        url: "index.php"
+      }).send();
+    }
+    window.addEvent("domready", function () {
+      keepAlive.periodical(840000);
+    });
+  </script>
+
+  <!--- This file contains the functions of the template. DO NOT MODIFY IT, otherwise the template will break !--->
+  <link rel="stylesheet" href="/templates/phoneapps-tg/css/styles.css" type="text/css" />
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32254085-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <link rel="stylesheet" href="/templates/phoneapps-tg/css/NivooSlider.css" type="text/css" />
+  <script type="text/javascript" src="/templates/phoneapps-tg/slideshow/NivooSlider.js"></script>
+  <script type="text/javascript">
+    window.addEvent('domready', function () {
+      // initialize Nivoo-Slider
+      new NivooSlider($('Slider'), {
+        effect: 'random',
+        interval: 5000,
+        orientation: 'random'
+      });
+    });
+  </script>
+</head>
+
+<body class="background">
+  <div class="main" style="background-image: url('https://fatecmm.edu.br/')">
+    <!-- <div class="cover black" data-color="black"></div> -->
+    <div id="webchat"></div>
+    <div id="main">
+      <div id="header-w">
+        <div id="header">
+          <div class="topmenu">
+
+          </div>
+
+          <a href="/">
+            <img src="/templates/phoneapps-tg/images/logo.png" border="0" class="logo">
+          </a>
+          <div class="slogan"></div>
+
+        </div>
+      </div>
+      <div id="wrapper">
+        <div id="navr">
+          <div class="tguser">
+            <form action="/index.php" method="post">
+              <div class="search">
+                <input name="searchword" id="mod-search-searchword" maxlength="20" class="searchbox" type="text"
+                  size="20" value="Buscar..." onblur="if (this.value=='') this.value='Buscar...';"
+                  onfocus="if (this.value=='Buscar...') this.value='';" /> <input type="hidden" name="task"
+                  value="search" />
+                <input type="hidden" name="option" value="com_search" />
+                <input type="hidden" name="Itemid" value="435" />
+              </div>
+            </form>
+          </div>
+          <div id="navl">
+            <div id="nav">
+              <div id="nav-left">
+
+                <ul class="menu">
+                  <li class="item-435 current "><a href="/">Home</a></li>
+                  <li class="item-518 deeper parent"><a href="/index.php/cursos">Cursos</a>
+                    <ul>
+                      <li class="item-519"><a href="/index.php/cursos/o-tecnologo">O Tecnólogo</a></li>
+                      <li class="item-603"><a href="/index.php/cursos/gestao-empresarial">Gestão Empresarial</a></li>
+                      <li class="item-520 deeper parent"><a href="/index.php/cursos/mecatronica-industrial">Mecatrônica
+                          Industrial</a>
+                        <ul>
+                          <li class="item-523"><a
+                              href="/index.php/cursos/mecatronica-industrial/infraestrutura-mecanica-precisao">Infraestrutura</a>
+                          </li>
+                          <li class="item-522"><a
+                              href="/index.php/cursos/mecatronica-industrial/matriz-mecanica-precisao">Matriz
+                              Curricular</a></li>
+                          <li class="item-549"><a href="/index.php/cursos/mecatronica-industrial/horario-tarde">Horário
+                              - tarde/noite</a></li>
+                        </ul>
+                      </li>
+                      <li class="item-524 deeper parent"><a href="/index.php/cursos/projetos-mecanicos">Projetos
+                          Mecânicos</a>
+                        <ul>
+                          <li class="item-527"><a
+                              href="/index.php/cursos/projetos-mecanicos/infraestrutura-mecanica-projetos">Infraestrutura</a>
+                          </li>
+                          <li class="item-526"><a
+                              href="/index.php/cursos/projetos-mecanicos/matriz-mecanica-projetos">Matriz Curricular</a>
+                          </li>
+                          <li class="item-550"><a href="/index.php/cursos/projetos-mecanicos/horario-noite">Horário -
+                              noite</a></li>
+                        </ul>
+                      </li>
+                      <li class="item-615 deeper parent"><a href="/index.php/cursos/fabricacao-mecanica">Fabricação
+                          Mecânica</a>
+                        <ul>
+                          <li class="item-617"><a
+                              href="/index.php/cursos/fabricacao-mecanica/horario-manha-fabricacao">Horário - manhã
+                              fabricação</a></li>
+                        </ul>
+                      </li>
+                      <li class="item-528 deeper parent"><a href="/index.php/cursos/ads">Análise e Desenv. de
+                          Sistemas</a>
+                        <ul>
+                          <li class="item-531"><a href="/index.php/cursos/ads/infraestrutura-ads">Infraestrutura</a>
+                          </li>
+                          <li class="item-530"><a href="/index.php/cursos/ads/matriz-ads">Matriz Curricular</a></li>
+                          <li class="item-552"><a href="/index.php/cursos/ads/horario-noite">Horário - noite</a></li>
+                          <li class="item-553"><a href="/index.php/cursos/ads/horario-manha">Horário - manhã</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-509 deeper parent"><a href="/index.php/alunos">Alunos</a>
+                    <ul>
+                      <li class="item-613"><a href="/index.php/alunos/vagas-estagio-e-emprego">Vagas: estágio e
+                          emprego</a></li>
+                      <li class="item-510"><a href="http://www.fatecmm.edu.br/faltas" target="_blank">Consulta de
+                          Faltas</a></li>
+                      <li class="item-511"><a href="/index.php/alunos/diplomas-para-egressos">Diplomas para egressos</a>
+                      </li>
+                      <li class="item-575"><a href="/index.php/alunos/relacoes-internacionais">Relações
+                          Internacionais</a></li>
+                      <li class="item-513"><a href="/index.php/alunos/aproveitamento-de-estudos-e-proficiencia">Aprov.
+                          de Estudos e Proficiência</a></li>
+                      <li class="item-535"><a href="/index.php/alunos/matricula">Matrícula</a></li>
+                      <li class="item-515"><a href="/index.php/alunos/projeto-msdnaa">Projeto MSDNAA</a></li>
+                      <li class="item-536"><a href="/index.php/alunos/transferencia-de-turno-curso">Transferência de
+                          Turno/Curso</a></li>
+                      <li class="item-619"><a href="http://monitoria.fatecmm.edu.br/">Monitoria e Iniciação
+                          Científica</a></li>
+                    </ul>
+                  </li>
+                  <li class="item-574"><a href="/index.php/professores">Professores</a></li>
+                  <li class="item-475"><a href="/index.php/concursos">Concursos</a></li>
+                  <li class="item-474"><a href="/index.php/vestibular">Vestibular</a></li>
+                  <li class="item-580"><a href="/index.php/cipa">Cipa</a></li>
+                  <li class="item-548"><a href="/index.php/fale-conosco">Fale Conosco</a></li>
+                </ul>
+              </div>
+              <div id="nav-right">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="main-content">
+          <!--[if IE 6]><link rel="stylesheet" href="/ DOCTYPE html type="text/css" media="screen" PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN < ?php echo $templateUrl; ?>/css/template.ie6.css" DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN type="text/css" media="screen" /><![endif]-->
+          <div class="clearpad"></div>
+          <div id="message">
+
+            <div id="system-message-container">
+            </div>
+          </div>
+          <div id="leftbar-w">
+            <div id="sidebar">
+              <div class="module">
+                <div class="inner">
+                  <div class="h3c">
+                    <div class="h3r">
+                      <div class="h3l">
+                        <h3 class="module-title">Institucional</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module-body">
+
+                    <ul class="menu">
+                      <li class="item-476"><a href="/index.php/fatec-mogi-mirim">Fatec Mogi Mirim</a></li>
+                      <li class="item-479"><a href="/index.php/historia">História</a></li>
+                      <li class="item-478"><a href="/index.php/estrutura-organizacional">Estrutura Organizacional</a>
+                      </li>
+                      <li class="item-477"><a href="/index.php/congregacao">Congregação</a></li>
+                      <li class="item-539"><a href="/index.php/regimento-e-regulamento-geral">Regimento e Regulamento
+                          Geral</a></li>
+                      <li class="item-612"><a
+                          href="http://fatecmm.edu.br/arquivos/Deliberacao_CEETEPS_regimento_disciplinar.pdf">Regime
+                          Disciplinar do Corpo Discente</a></li>
+                      <li class="item-444"><a href="/index.php/secretaria-academica">Secretaria Acadêmica</a></li>
+                      <li class="item-533"><a href="/index.php/escritorio-de-carreiras">Escritório de Carreiras &amp;
+                          Estágios</a></li>
+                      <li class="item-620"><a href="http://monitoria.fatecmm.edu.br/">Monitoria e Iniciação
+                          Científica</a></li>
+                      <li class="item-558"><a href="/index.php/trabalhos-de-graduacao">Trabalhos de Graduação</a></li>
+                      <li class="item-618"><a href="/index.php/trabalho-integrador">Trabalho Integrador</a></li>
+                      <li class="item-534"><a href="/index.php/calendario-escolar">Calendário Escolar 2021</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <div class="inner">
+                  <div class="h3c">
+                    <div class="h3r">
+                      <div class="h3l">
+                        <h3 class="module-title">Notícias e Eventos</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module-body">
+
+                    <ul class="menu">
+                      <li class="item-502 parent"><a href="/index.php/noticias-da-fatec">Fatec</a></li>
+                      <li class="item-501"><a href="/index.php/noticias-do-centro-paula-souza">Centro Paula Souza</a>
+                      </li>
+                      <li class="item-590"><a href="/index.php/joliet-junior-college">Joliet Junior College</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MODIFY social buttons here (add yours from addthis.com) -->
+            <!-- END of social script -->
+          </div>
+
+          <div id="centercontent">
+            <!-- Slideshow -->
+
+            <div id="Slider" class="nivoo-slider">
+              <a href="http://fatecmm.edu.br/index.php/escritorio-de-carreiras">
+                <img src="/templates/phoneapps-tg/slideshow/1.jpg" title="Clique e confira...." height="250"
+                  width="500" /></a>
+              <a href="https://www.vestibularfatec.com.br/home/">
+                <img src="/templates/phoneapps-tg/slideshow/2.jpg" title="Fique atento! Clique e veja mais..."
+                  height="250" width="500" /></a>
+              <a href="http://fatecmm.edu.br/arquivos/Entrega_relatorios_EstagioSupervisionado.pdf">
+                <img src="/templates/phoneapps-tg/slideshow/3.jpg" title="PRAZO FINAL: 12/06. Clique e veja mais..."
+                  height="250" width="500" /></a>
+              <a href="http://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg">
+                <img src="/templates/phoneapps-tg/slideshow/4.jpg" title="Clique e veja como falar com a gente..."
+                  height="250" width="500" /></a>
+            </div>
+
+            <!-- END Slideshow -->
+            <div class="clearpad">
+              <div class="blog-featured">
+
+                <div class="items-leading">
+                  <div class="leading-0">
+
+
+
+
+
+
+
+
+
+
+
+                    <p><img src="/images/banner%20site%20fatec.jpg" alt="banner site fatec"
+                        style="display: block; margin: 5px auto;" height="72" width="290" /></p>
+
+
+                    <div class="item-separator"></div>
+                  </div>
+                </div>
+
+
+                <div class="items-row cols-3 row-0">
+                  <div class="item column-1">
+
+
+
+
+
+
+
+
+
+
+
+                    <p><strong style="text-align: justify;"><span
+                          style="font-size: 10pt; font-family: Tahoma, sans-serif; color: #a92929; border: 1pt none windowtext; padding: 0cm;">Convênio
+                          FATEC X SOFTEX</span></strong></p>
+                    <p
+                      style="margin-bottom: 0cm; text-align: justify; line-height: normal; background: white; vertical-align: baseline;">
+                      &nbsp;</p>
+                    <p
+                      style="margin-bottom: 0cm; text-align: justify; line-height: 11.75pt; background: white; vertical-align: baseline;">
+                      <span style="color: #404040; font-family: Tahoma, sans-serif; font-size: 10pt;">Parceria com a
+                        Softex Campinas no âmbito do projeto capacitação empreendedora, oferece aos nossos alunos acesso
+                        à plataforma Workover Academy, que disponibiliza cursos gratuitos na área de tecnologia e
+                        inovação.&nbsp;</span>
+                    </p>
+                    <p
+                      style="margin-bottom: 0cm; text-align: justify; line-height: 11.75pt; background: white; vertical-align: baseline;">
+                      &nbsp;</p>
+                    <p style="margin-bottom: 3.75pt;">&nbsp;</p>
+                    <p
+                      style="margin-bottom: 0cm; text-align: justify; line-height: 11.75pt; background: white; vertical-align: baseline;">
+                      &nbsp;</p>
+                    <div class="leading-0"
+                      style="color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 16px; text-align: -webkit-auto; border: 0px; margin: 0px; padding: 0px; outline: 0px; vertical-align: baseline;">
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;"><a
+                          href="/index.php/component/content/article/98-noticias-e-eventos/noticias-da-fatec/502-parceria-softex-workover"
+                          target="_blank"
+                          style="background-color: #267f96; border: 0px; font-style: inherit; margin: 0px; padding: 2px; outline: 0px; vertical-align: baseline; color: #ffffff; float: right; line-height: 14px; overflow: visible; font-size: 11px;">Veja
+                          mais...</a></p>
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;">&nbsp;</p>
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;">&nbsp;</p>
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;">&nbsp;</p>
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;">&nbsp;</p>
+                    </div>
+                    <p
+                      style="margin-bottom: 0cm; text-align: justify; line-height: 11.75pt; background: white; vertical-align: baseline;">
+                      <span style="color: #404040; font-family: Tahoma, sans-serif; font-size: 10pt;"><br /></span>
+                    </p>
+
+
+                    <div class="item-separator"></div>
+                  </div>
+
+                  <div class="item column-2">
+
+
+
+
+
+
+
+
+
+
+
+                    <p style="margin-bottom: 3.75pt; text-align: left;"><strong><span
+                          style="font-size: 10pt; font-family: Tahoma, sans-serif; color: #a92929;">Teams</span></strong>
+                    </p>
+                    <p style="margin-bottom: 3.75pt; text-align: left;"><strong><span
+                          style="color: #404040; font-family: Tahoma, sans-serif; font-size: 13.3333px;">Aulas online -
+                          Dúvidas</span></strong></p>
+                    <p style="margin-bottom: 3.75pt; text-align: left;"><strong><span
+                          style="color: #404040; font-family: Tahoma, sans-serif; font-size: 13.3333px;"><br /></span></strong>
+                    </p>
+                    <p style="margin-bottom: 3.75pt; text-align: left;"><a
+                        href="https://www.cps.sp.gov.br/duvidas-aulas-online/#videos" target="_blank"><span
+                          style="color: #404040; font-family: Tahoma, sans-serif;"><span
+                            style="font-size: 13.3333px;">-Tutoriais em Vídeo;</span></span></a></p>
+                    <p style="margin-bottom: 3.75pt; text-align: left;"><a
+                        href="https://www.cps.sp.gov.br/duvidas-aulas-online/#cartilhas" target="_blank"><span
+                          style="color: #404040; font-family: Tahoma, sans-serif;"><span
+                            style="font-size: 13.3333px;">-Cartilhas;</span></span></a></p>
+                    <p style="margin-bottom: 3.75pt; text-align: left;"><a
+                        href="https://www.cps.sp.gov.br/duvidas-aulas-online/#form" target="_blank"><span
+                          style="font-size: 13.3333px; color: #404040; font-family: Tahoma, sans-serif;">-Formulário de
+                          Suporte;</span></a></p>
+                    <p style="margin-bottom: 3.75pt; text-align: left;">&nbsp;</p>
+                    <p class="MsoNormal" style="margin-bottom: 3.75pt;">&nbsp;</p>
+                    <div class="leading-0"
+                      style="color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 16px; text-align: -webkit-auto; border: 0px; margin: 0px; padding: 0px; outline: 0px; vertical-align: baseline;">
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;"><a
+                          style="background-color: #267f96; border: 0px; font-style: inherit; margin: 0px; padding: 2px; outline: 0px; vertical-align: baseline; text-decoration: none; color: #ffffff; float: right; line-height: 14px; overflow: visible; font-size: 11px;"
+                          href="https://www.cps.sp.gov.br/duvidas-aulas-online/" target="_blank">Veja mais...</a></p>
+                    </div>
+
+
+                    <div class="item-separator"></div>
+                  </div>
+
+                  <div class="item column-3">
+
+
+
+
+
+
+
+
+
+
+
+                    <p
+                      style="margin-bottom: 0.0001pt; background-image: initial; background-attachment: initial; background-position: initial; background-repeat: initial;">
+                      <span color="#a92929" face="Tahoma, sans-serif"
+                        style="color: #a92929; font-family: Tahoma, sans-serif;"><span
+                          style="font-size: 13px; line-height: 15.3333320617676px;"><b>Infraestrutura</b></span></span>
+                    </p>
+                    <p
+                      style="margin-bottom: 0.0001pt; background-image: initial; background-attachment: initial; background-position: initial; background-repeat: initial;">
+                      <span style="font-size: 10pt; font-family: Tahoma, sans-serif; color: #404040;">&nbsp;</span>
+                    </p>
+                    <p
+                      style="margin-bottom: 0.0001pt; background-image: initial; background-attachment: initial; background-position: initial; background-repeat: initial;">
+                      <span style="font-size: 10pt; font-family: Tahoma, sans-serif; color: #404040;">Clique e conheça a
+                        infraestrutura da Fatec.</span>
+                    </p>
+                    <p
+                      style="margin-bottom: 0.0001pt; background-image: initial; background-attachment: initial; background-position: initial; background-repeat: initial;">
+                      <span style="font-size: 10pt; font-family: Tahoma, sans-serif; color: #404040;">&nbsp;</span>
+                    </p>
+                    <div class="leading-0"
+                      style="color: #555555; font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 16px; text-align: -webkit-auto; border: 0px; margin: 0px; padding: 0px; outline: 0px; vertical-align: baseline;">
+                      <p class="readmore" style="margin-top: 0px; margin-bottom: 10px; padding: 0px 5px;"><a
+                          style="background-color: #267f96; border: 0px; font-style: inherit; margin: 0px; padding: 2px; outline: 0px; vertical-align: baseline; text-decoration: none; color: #ffffff; float: right; line-height: 14px; overflow: visible; font-size: 11px;"
+                          href="https://photos.app.goo.gl/Q3c6J8LdCFte5ML97" target="_blank">Veja mais...</a></p>
+                    </div>
+
+
+                    <div class="item-separator"></div>
+                  </div>
+                  <span class="row-separator"></span>
+                </div>
+
+
+
+
+              </div>
+
+            </div>
+          </div>
+          <div id="rightbar-w">
+            <div id="sidebar">
+              <div class="module">
+                <div class="inner">
+                  <div class="h3c">
+                    <div class="h3r">
+                      <div class="h3l">
+                        <h3 class="module-title">Serviços</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module-body">
+
+                    <ul class="menu">
+                      <li class="item-560"><a href="https://www.urhsistemas.cps.sp.gov.br/dgsdad/FATEC/Cesu.aspx"
+                          target="_blank">Materiais/CESU</a></li>
+                      <li class="item-623"><a href="http://certificados.fatecmm.edu.br/" target="_blank">Emissão de
+                          Certificados</a></li>
+                      <li class="item-611"><a
+                          href="https://recadastramentoanual.sp.gov.br/recadastramentoanual/noauth/LoginPrepare.do"
+                          target="_blank">Recadastramento Anual dos Servidores</a></li>
+                      <li class="item-588"><a href="https://siga.cps.sp.gov.br/aluno/login.aspx" target="_blank">Acesso
+                          ao SIGA - Alunos</a></li>
+                      <li class="item-589"><a href="https://siga.cps.sp.gov.br/fatec/login.aspx" target="_blank">Acesso
+                          ao SIGA - Funcionário/Professor</a></li>
+                      <li class="item-621"><a
+                          href="https://centropaulasouza-my.sharepoint.com/personal/f163dir_cps_sp_gov_br/Documents/Forms/All.aspx?cid=3eedd59d-f761-42b3-a861-2d732cd9b868&amp;RootFolder=%2Fpersonal%2Ff163dir_cps_sp_gov_br%2FDocuments%2FEDITAIS&amp;FolderCTID=0x012000E996CCAB622D5540ACB36F8D73DF5CE4"
+                          target="_blank">Editais: Professores</a></li>
+                      <li class="item-473"><a href="http://webmail.fatecmm.edu.br" target="_blank">Webmail</a></li>
+                      <li class="item-614"><a href="/index.php/reposicao-de-aulas-docente">Reposição de Aulas
+                          Docente</a></li>
+                      <li class="item-576"><a href="http://mail.fatec.sp.gov.br" target="_blank">Outlook Fatec: e-mail
+                          institucional</a></li>
+                      <li class="item-556"><a href="http://www.e-folha.sp.gov.br/desc_dempagto/entrada.asp?cliente=092"
+                          target="_blank">Demonstrativo on-line</a></li>
+                      <li class="item-557"><a href="https://urh.cps.sp.gov.br/" target="_blank">Evolução Funcional</a>
+                      </li>
+                      <li class="item-559"><a href="/index.php/msdn-academic-alliance">MSDN Academic Alliance</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="module">
+                <div class="inner">
+                  <div class="h3c">
+                    <div class="h3r">
+                      <div class="h3l">
+                        <h3 class="module-title">Login</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="module-body">
+                    <form action="/index.php" method="post" id="login-form">
+                      <fieldset class="userdata">
+                        <p id="form-login-username">
+                          <label for="modlgn-username">Nome de Usuário</label>
+                          <input id="modlgn-username" type="text" name="username" class="inputbox" size="18" />
+                        </p>
+                        <p id="form-login-password">
+                          <label for="modlgn-passwd">Senha</label>
+                          <input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18" />
+                        </p>
+                        <p id="form-login-remember">
+                          <label for="modlgn-remember">Lembrar-me</label>
+                          <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes" />
+                        </p>
+                        <input type="submit" name="Submit" class="button" value="Entrar" />
+                        <input type="hidden" name="option" value="com_users" />
+                        <input type="hidden" name="task" value="user.login" />
+                        <input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD00MzU=" />
+                        <input type="hidden" name="64cc6d7e1991ffd1b93eb03b8bcef88f" value="1" />
+                      </fieldset>
+                      <ul>
+                        <li>
+                          <a href="/index.php/component/users/?view=reset">
+                            Esqueceu sua senha?</a>
+                        </li>
+                        <li>
+                          <a href="/index.php/component/users/?view=remind">
+                            Esqueceu seu usuário?</a>
+                        </li>
+                      </ul>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="user-bottom">
+    <div class="user1"></div>
+    <div class="user2"></div>
+    <div class="user3"></div>
+  </div>
+  <script>
+    !(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default({
+            customData: {
+              language: "pt"
+            },
+            initPayload: "/start",
+            socketUrl: "http://localhost:5005/",
+            //socketUrl: "http://1973a6eaa10a.ngrok.io",
+            socketPath: "/socket.io/",
+            customData: {
+              useId: "123"
+            },
+            title: "Fatec",
+            subtitle: "secretaria",
+            welcomeMessage: "oi",
+            inputTextFieldHint: "Digite uma mensagem...",
+            showFullScreenButton: true,
+            showMessageDate: true,
+            displayUnreadCount: true,
+            params: {
+              "storage": "local",
+            }
+          },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    localStorage.clear();
+  </script>
+  <style type="text/css">
+    /*     General overwrite     */
+    a {
+      color: #a92929;
+    }
+
+    a:hover,
+    a:focus {
+      color: #a92929;
+    }
+
+    a:focus,
+    a:active,
+    button::-moz-focus-inner,
+    input[type="reset"]::-moz-focus-inner,
+    input[type="button"]::-moz-focus-inner,
+    input[type="submit"]::-moz-focus-inner,
+    select::-moz-focus-inner,
+    input[type="file"]>input[type="button"]::-moz-focus-inner {
+      outline: 0;
+    }
+
+    /*           Typography          */
+    p {
+      font-size: 16px;
+      line-height: 1.6180em;
+    }
+
+    .main {
+      background-position: center center;
+      background-size: cover;
+      height: auto;
+      left: 0;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 0;
+      width: auto;
+    }
+
+    .cover {
+      position: fixed;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .6);
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .cover.black {
+      background-color: rgba(0, 0, 0, .6);
+    }
+
+    .logo-container .logo {
+      overflow: hidden;
+      border-radius: 50%;
+      border: 1px solid #333333;
+      width: 60px;
+      float: left;
+    }
+
+    .main .logo {
+      color: #FFFFFF;
+      font-size: 56px;
+      font-weight: 300;
+      position: relative;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+      margin-top: 150px;
+      z-index: 3;
+    }
+
+    .main .logo.cursive {
+      font-family: 'Grand Hotel', cursive;
+      font-size: 82px;
+    }
+
+    .main .content {
+      position: relative;
+      z-index: 4;
+    }
+
+    .main .motto {
+      min-height: 140px;
+    }
+
+    .main .motto {
+      font-size: 30px;
+      color: #FFFFFF;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .main .mottov1 {
+      font-size: 60px;
+    }
+
+    .footer {
+      position: relative;
+      bottom: 20px;
+      right: 0px;
+      width: 100%;
+      color: #AAAAAA;
+      z-index: 4;
+      text-align: right;
+      margin-top: 50px;
+    }
+
+    .footer a {
+      color: #FFFFFF;
+    }
+
+    @media (min-width:991px) {
+      .footer {
+        position: fixed;
+        bottom: 20px;
+      }
+    }
+
+    .rw-conversation-container .rw-header {
+      background-color: #a92929;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      height: 55px;
+      font-family: Inter, sans-serif;
+      position: relative;
+    }
+
+    .rw-conversation-container .rw-client {
+      background-color: #a92929;
+      color: #fff;
+      border-radius: 15px;
+      padding: 11px 15px;
+      max-width: 215px;
+      text-align: left;
+      font-family: Inter, sans-serif;
+      background-color: #c34f4f;
+      max-width: 85%;
+      margin-left: auto;
+      overflow-wrap: break-word;
+    }
+
+    .rw-launcher {
+      -webkit-animation-delay: 0;
+      -webkit-animation-duration: .5s;
+      -webkit-animation-name: slide-in;
+      -webkit-animation-fill-mode: forwards;
+      -moz-animation-delay: 0;
+      -moz-animation-duration: .5s;
+      -moz-animation-name: slide-in;
+      -moz-animation-fill-mode: forwards;
+      animation-delay: 0;
+      animation-duration: .5s;
+      animation-name: slide-in;
+      animation-fill-mode: forwards;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #a92929;
+      border: 0;
+      border-radius: 50%;
+      box-shadow: 0 2px 10px 1px #b5b5b5;
+      height: 60px;
+      margin: 0;
+      width: 60px;
+      box-sizing: border-box;
+    }
+
+    .rw-conversation-container .rw-send .rw-send-icon-ready {
+      fill: #a92929;
+      transition: fill .35s;
+    }
+
+    .inputbox,
+    input,
+    textarea,
+    select {
+      background: none repeat scroll 0 0 transparent;
+      border: 1px solid #c0c0c0;
+      color: #000000;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      padding-right: 4px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      padding: 10px 0;
+      font-weight: bold;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: #a92929;
+    }
+  </style>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>

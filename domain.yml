@@ -1,0 +1,714 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- obrigado_intent
+- faq:
+    is_retrieval_intent: true
+- saudacao_intent
+- tchau_intent
+- bot_intent
+- help_intent
+- start
+
+
+
+entities:
+- negandopergunta_entity
+- horario_secretaria_entity
+- canais_atendimento_entity
+- horarios_cursos_entity
+- projeto_pedagogico_entity
+- calendario_escolar_entity
+- estagio_supervisionado_entity
+- tcc_tgg_entity
+- iniciaçao_cientifica_entity
+- equivalencia_estagio_entity
+- vagas_estagio_entity
+- regimentos_entity
+- siga_entity
+- matricula_entity
+- senha_siga_entity
+- senha_institucional_entity
+- trancamento_entity
+- colacao_formatura_entity
+- pedir_diploma_entity
+- aproveitamento_estudos_entity
+- tecnologo_superior_entity
+- faltas_notas_entity
+- rematricula_entity
+- criterios_aprovacao_entity
+- cursos_oferecidos_entity
+- historico_escolar_entity
+- duracao_curso_entity
+- valor_curso_entity
+- abono_faltas_entity
+- revisao_notas_faltas_entity
+- regulamento_entity
+- mec_entity
+- mec_projeto_entity
+- mec_fabricacao_entity
+- mec_mecatronica_entity
+- mec_ads_entity
+- mec_gestao_entity
+- troca_curso_entity
+- troca_turno_entity
+- biblioteca_entity
+- informacoes_cancelamento_entity
+- tranferir_fatec_entity
+- reposta_sim_intenty
+- solicitacao_documento_entity
+- monitorias_entity
+- localizacao_entity
+#################### entidades vestibular###########
+- aproveitamento_entity
+- historico_entity
+- escolaridade_entity
+- vestibular_novamente_entity
+- outra_faculdade_entity
+- aulas_remotas_entity
+- idade_minima_entity
+- permissao_vestibular_entity
+- valor_mensalidade_entity
+- curso_tecnico_entity
+- candidato_estrangeiro_entity
+- taxa_inscricao_entity
+- vestibular_entity
+- inscricao_vestibular_entity
+- upload_entity
+- pagamento_efetivado_entity
+- segunda_via_boleto_entity
+- segunda_chamada_entity
+- etapas_processo_seletivo_entity
+- prova_entity
+- redes_sociais_entity
+- sobre_o_curso_entity
+- sobre_documentos_entity
+
+responses:
+  utter_saudacao:
+  - text: |-
+        Em que posso te ajudar?
+
+  utter_tchau:
+  - text: Tchau até mais!
+  - text: Tchau até logo!
+  - text: Tchau fico feliz por ter usado nosso bot!
+
+  utter_bot:
+  - text: Olá eu sou um bot criado pela FATEC!
+
+  utter_obrigado:
+  - text: Muito obrigado!
+  - text: Obrigado volte sempre!
+  - text: Obrigado até logo!
+  - text: Obrigado fico feliz por ter usado nosso bot!
+  utter_help:
+  - text: "Faça uma pergunta!"
+
+  utter_resposta_fallback:
+  - text: "Poderia escrever o que precisa com outras palavras..."
+
+
+  utter_faq/ask_negandopergunta:
+  - text: Não entendi, poderia repetir novamente sua pergunta?
+
+
+  utter_faq/ask_horario_secretaria:
+  - text: |-
+      De seg. à sexta: das 8h às 11h / das 13h às 17h / e das 18h30 às 22h.
+
+      Porém, em virtude do período da pandemia Covid-19, estamos atendendo exclusivamente por e-mail:
+      [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
+
+
+  utter_faq/ask_canais_atendimento:
+  - text: |-
+      Telefones: (19) 3806-2181 e 3806-3139.
+
+
+       Porém, em virtude do período da pandemia Covid-19, estamos atendendo exclusivamente por e-mail ou pelo whatsapp (19) 99152-9643:
+       [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
+
+
+  utter_faq/ask_horarios_cursos:
+  - text: |-
+       • Horários dos curso são:
+
+       • Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/projetos-mecanicos/horario-noite)
+
+       • Fabricação Mecânica, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/fabricacao-mecanica/horario-manha-fabricacao) 
+
+       • Análise de Desenvolvimento de Sistemas período manhã, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads/horario-manha)
+
+       • Análise de Desenvolvimento de Sistemas período noturno, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads/horario-noite) 
+
+       • Mecatrônica Industrial, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/mecatronica-industrial/horario-tarde)
+
+
+  utter_faq/ask_projeto_pedagogico:
+  - text: |-
+       •	Projeto dos curso são:
+
+       •	Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ-PEDAG-PROJETOS.pdf) 
+
+       •	Fabricação Mecânica, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Proj_Fabricacao_Mecanica.pdf) 
+
+       •	Análise de Desenvolvimento de Sistemas, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ_PEDAG_ADS_2011.pdf)
+
+       •	Gestão Empresarial - EaD, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Projeto_Ped_Gestao_Empresarial.pdf) 
+
+       •	Mecatrônica Industrial, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Mecatronica_Industrial_Mogi%20Mirim_2017.pdf)
+
+
+  utter_faq/ask_calendario_escolar:
+  - text: |-
+      Para visualizar o calendário escolar
+      [clique aqui](https://www.fatecmm.edu.br/index.php/calendario-escolar)
+  utter_faq/ask_estagio_supervisionado:
+  - text: |-
+      O estágio é um conjunto de atividades de aprendizagem de cunho profissional, social e cultural que são proporcionadas ao estudante pela participação em situações reais de vida e de trabalho relacionados à sua área. 
+
+       O aluno deve ver no estágio a oportunidade de vivenciar o que aprendeu nas aulas e, como consequência, diferenciar-se na sua formação e garantir sua empregabilidade. 
+
+       Para maiores informações [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
+
+
+  utter_faq/ask_tcc_tgg:
+  - text: |-
+      O Trabalho de Graduação – TG, constitui-se numa atividade científica da graduação, de sistematização do conhecimento sobre um objeto de estudo ou problema relacionado ao curso. 
+
+       Deve ser desenvolvido mediante orientação e avaliação docente, cuja exigência é um requisito essencial e obrigatório para integralização curricular.
+
+       Para maiores informações [clique aqui](https://www.fatecmm.edu.br/index.php/trabalhos-de-graduacao)
+
+       
+  utter_faq/ask_iniciaçao_cientifica:
+  - text: |-
+      A Iniciação Científica é uma modalidade de pesquisa desenvolvida por estudantes dos cursos de graduação, sob a orientação de um(a) professor(a)-pesquisador(a).
+
+       O termo iniciação é usado por representar, usualmente, a primeira experiência dos estudantes com atividades de pesquisa acadêmica.
+
+       A Direção, as Coordenadorias de Cursos e a CEPE (Câmara de Ensino Pesquisa e Extensão) da Fatec de Mogi Mirim “Arthur de Azevedo”, informam que foi aprovada pelo Centro Paula Souza a possibilidade de equivalência de Iniciação Científica como Estágio Supervisionado, conforme prevê a LEI Nº 11.788, de 25 de setembro de 2008 e Memorando Circular 18/2020 CESU, expedido em 19/06/2020. 
+
+       Para saber mais sobre Iniciação Científica
+      [clique aqui](https://monitoria.fatecmm.edu.br/?cepe)
+
+
+  utter_faq/ask_equivalencia_estagio:
+  - text: |-
+      A equivalência de estágio pode se dar de duas formas:
+
+       Por EXPERIÊNCIA PROFISSIONAL – Pode solicitar equivalência quem já trabalha na área de estudo, preenchendo o requerimento (Processo), conforme modelo disponível em [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
+
+       Por INICIAÇÃO CIENTÍFICA – Pode solicitar equivalência quem realizou projeto de IC submetido à CEPE – Câmara de Ensino Pesquisa e Extensão da Fatec de Mogi Mirim e cujo relatório final tenha sido aprovado pela mesma, que emitirá documento comprobatório (certificação). O aluno interessado na referida validação, se encarregará de encaminhar a certificação ao Núcleo de Estágio, juntamente com o requerimento (Processo), conforme modelo disponível em [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
+
+
+  utter_faq/ask_vagas_estagio:
+  - text: |-
+      A Fatec de Mogi Mirim Arthur de Azevedo divulga inúmeras vagas e oportunidades de estágio e emprego, de empresas de Mogi Mirim e região, através do **Escritório de Carreiras**     
+      [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras/82-alunos/450-escritorio-de-carreiras-oportunidades)
+
+
+  utter_faq/ask_regimentos:
+  - text: |-
+      Para acessar o Regimento das Fatecs, segue link:
+      [clique aqui](https://www.fatecmm.edu.br/arquivos/Regimento_Ceeteps.pdf)
+
+
+  utter_faq/ask_siga:
+  - text: |-
+      Para acesso ao SIGA, segue link:
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+
+
+  utter_faq/ask_senha_siga:
+  - text: |-
+      Para recuperar a senha do SIGA
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login_auxproblemas.aspx)
+
+
+  utter_faq/ask_senha_institucional:
+  - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para douglas.pereira@fatec.sp.gov.br, contendo nome completo e RA
+
+
+  utter_faq/ask_trancamento:
+  - text: |-
+      O trancamento parcial de matrícula consiste na desistência - por parte do aluno e no prazo estipulado pelo Calendário Escolar - de cursar uma ou mais disciplinas em que estiver inscrito, obrigando-se o acadêmico, porém, a cursar pelo menos uma disciplina.
+
+      É permitida a desistência em uma mesma atividade curricular uma única vez durante o curso todo, sendo assim, o aluno é obrigado a matricular - se regularmente na disciplina desistida no semestre posterior ao trancamento.
+
+      O trancamento total de matrícula consiste na desistência em todas as disciplinas do semestre. São concedidos dois trancamentos de matrícula consecutivos ou não.
+
+      Cada trancamento terá a duração de um período letivo regular (1 semestre).
+
+      Não será contado para integralização curricular o tempo em que o aluno estiver com a matrícula trancada em todas as disciplinas.
+
+      É proibido o trancamento global de matrícula para os alunos que estão cursando o 1º período da estrutura curricular dos cursos.
+
+      O trancamento parcial (desistência) ou total de matrícula deverá ser solicitado na Secretaria da FATEC nos prazos estabelecidos no Calendário Escolar.
+      Para pedido de trancamento total ou desistência de disciplina, preencher o requerimento. 
+
+
+  utter_faq/ask_colacao_formatura:
+  - text: |-
+      A colação de grau é o ato institucional que se realiza em assembleia ordinária das Congregações das Unidades das Fatecs, ou do Conselho Universitário, no caso de Centros Universitários e Universidades, para conferir graus acadêmicos aos graduados.
+
+      Trata-se, portanto, de um ato de extrema importância para a vida acadêmica.
+
+      Talvez o mais importante e, sem dúvida, o mais solene.
+
+      O grau acadêmico só é conferido após o concluinte ter feito juramento público e solene, prometendo desempenhar a nova profissão com competência e ética, em prol, e para o desenvolvimento da sociedade.
+
+      Deste modo, os alunos que tenham cumprido todas as exigências de seus cursos, e apenas esses, poderão participar da cerimônia de colação de grau e entrega de diplomas
+
+
+  utter_faq/ask_pedir_diploma:
+  - text: |-
+      Após a Conclusão do Curso e Colação de Grau (obrigatória), o formando receberá na solenidade, o Atestado de Conclusão do Curso.
+
+       Não é necessário o formado requerer a expedição do Diploma.
+
+       O mesmo será providenciado pela Diretora Acadêmica que será confeccionado juntamente com o CEETEPS.
+       
+       O prazo de confecção de Diploma é de aproximadamente 10 meses.
+
+
+  utter_faq/ask_aproveitamento_estudos:
+  - text: |-
+      Os alunos que ingressarem na FATEC poderão requerer equivalência de estudos, de disciplinas cursadas com aproveitamento em outras Instituições de Ensino Superior, com disciplinas oferecidas pela FATEC.
+
+      No ato da matrícula, o aluno deve requerer, junto à Secretaria Acadêmica, aproveitamento de estudos, apresentando Histórico Escolar contendo notas e carga horária das disciplinas cursadas e o conteúdo programático (carimbado e assinado pela IES) dessas disciplinas.
+
+      A Secretaria Acadêmica encaminhará a solicitação ao Coordenador do curso que, após análise pelos professores das disciplinas, apresentará a documentação à Direção para apreciação. 
+
+      O prazo para requerer a equivalência de estudos está previsto no Manual do Candidato.
+
+      •	O assunto encontra-se regulamentado através do Regulamento Geral dos cursos de graduação das FATEC’s do Centro Paula Souza Capítulo III, Seção III.
+      
+      •	Sim, você poderá fazer Aproveitamento de Estudos, desde que as disciplinas que você cursou com aproveitamento, tiverem a mesma carga horária e ementa do curso pretendido.
+  
+
+  utter_faq/ask_tecnologo_superior:
+  - text: |-
+     Todos os cursos da Fatec são cursos tecnólogos e não técnicos, ou seja, são cursos superiores de tecnologia.
+
+     Os Tecnólogos diplomados pelas FATECs são profissionais de nível superior que, pela sua formação direcionada, estão aptos à atuação imediata e qualificada em sua especialidade.
+
+
+  utter_faq/ask_faltas_notas:
+  - text: |-
+     As faltas são divulgadas semanalmente ou mensalmente, pelo professor da disciplina no sistema SIGA. As notas finais serão divulgadas no sistema SIGA somente no final do semestre em data especificada no Calendário Escolar, estando sujeita a alterações. As notas durante o semestre deverão ser verificadas pelo aluno junto ao professor ou pelo sistema, para aquelas disciplinas onde o professor determina notas parciais. Para maiores informações
+       [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+
+
+  utter_faq/ask_matricula:
+  - text: |-
+      Para solicitar sobre:
+      Atestado de Matrícula;
+      Declaração de Matrícula;
+      Comprovante de Matrícula ou
+      Histórico escolar.
+      Acesse o SIGA na área **SOLICITAÇÃO DE DOCUMENTOS** 
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+
+
+  utter_faq/ask_rematricula:
+  - text: |-
+      As rematrículas deverão ser renovadas pelo aluno, semestralmente, dentro do prazo fixado pelo Calendário Escolar. A rematrícula será efetuada através do sistema SIGA, onde o aluno aprovado em todas as disciplinas da série anterior poderá efetuar matrícula nas disciplinas da série subsequente.
+
+      Se o aluno for reprovado por falta ou por nota, no período, deverá obrigatoriamente cursar a disciplina em que obteve reprovação.
+
+      Para maiores informações, 
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+
+
+  utter_faq/ask_criterios_aprovacao:
+  - text: |-
+      A apuração do rendimento escolar é feita por disciplina, conforme as atividades curriculares, abrangendo os aspectos de frequência e aproveitamento. O aproveitamento escolar é mensurado por meio de avaliação, expressando-se o resultado de cada avaliação em notas na escala de zero a dez com uma casa decimal.
+
+      Será considerado aprovado aluno que obtiver no mínimo 75% (setenta e cinco por cento) de frequência às aulas e demais atividades escolares e nota de aproveitamento igual ou superior a 6,0 (seis inteiros).
+
+      •	O assunto encontra-se regulamentado através do Regulamento Geral dos cursos de graduação das FATEC’s do Centro Paula Souza Capítulo III.
+
+
+  utter_faq/ask_cursos_oferecidos:
+  - text: |-
+      A Fatec de **Mogi Mirim Arthur** de Azevedo oferece os seguintes Cursos Superiores de Tecnologia em:
+
+      •	Análise e Desenvolvimento de Sistemas – Eixo Tecnológico: Informação e Comunicação – Para mais informações
+       [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads) 
+
+      •	Fabricação Mecânica – Eixo Tecnológico: Produção Industrial – Para mais informações
+       [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/fabricacao-mecanica)
+
+      •	Mecatrônica Industrial – Eixo Tecnológico: Controle e Processos Industriais – Para mais informações
+       [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/mecatronica-industrial)
+
+      •	Projetos Mecânicos – Eixo Tecnológico: Controle e Processos Industriais – Para mais informações
+       [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/projetos-mecanicos) 
+
+      •	Gestão Empresarial (EaD) – Eixo Tecnológico: Gestão e Negócios – Para mais informações
+       [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/gestao-empresarial)
+
+
+  utter_faq/ask_historico_escolar:
+  - text: |-
+      Para solicitar o Histórico escolar, acesse o SIGA na área **SOLICITAÇÃO DE DOCUMENTOS** 
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+
+
+  utter_faq/ask_duracao_curso:
+  - text: Compromissados com o sistema produtivo, os cursos em nível superior oferecidos pela FATEC possuem currículos flexíveis, compostos por disciplinas de formação básica e humanística, de apoio tecnológico e de formação específica, de acordo com a área de atuação do profissional a ser formado. São cursos com 3 anos de duração, o que não impede que o aluno prossiga seus estudos em nível de pós-graduação.
+
+
+  utter_faq/ask_valor_curso:
+  - text: As Faculdades de Tecnologia –FATEC – mantidas pelo Centro Paula Souza são instituições públicas de ensino superior que oferecem cursos de graduação em tecnologia gratuitos, devidamente reconhecidos, estruturados e desenvolvidos para atender os segmentos atuais e emergentes da atividade tanto industrial como do setor de serviços, com foco na constante evolução tecnológica.
+
+  
+  utter_faq/ask_abono_faltas:
+  - text: |-
+      Não há **abono de faltas**, mais Compensação de ausência às aulas por meio da realização de exercícios domiciliares nos termos do decreto-lei no. 1.044/69 e Lei 6.202/75. Os alunos portadores de doenças infectocontagiosas ou traumatismos devem requerer os benefícios previstos pelo decreto-lei no. 1.044 de 21/10/1969, desde que o afastamento seja igual ou superior a 15 (quinze) dias.
+
+      Para maiores informações
+      [clique aqui](https://www.fatecmm.edu.br/arquivos/Regulamento_Cursos.pdf)
+
+
+  utter_faq/ask_revisao_notas_faltas:
+  - text: |-
+      As avaliações são apresentadas diretamente ao aluno, em sala de aula, pelos professores. 
+
+      As notas, tanto parciais quanto finais, serão divulgadas pelo professor responsável pela disciplina em sala de aula e pelo sistema SIGA.
+
+      Após a entrega das notas na Secretaria Acadêmica, não poderá haver mudança nos registros do Diário de Classe.
+
+      O aluno pode requerer revisão de nota, 05 (cinco) dias após a publicação da mesma, pelo sistema SIGA. As revisões são feitas pelo Professor da disciplina ou, no seu impedimento, por outro professor designado pelo Coordenador do Curso. Após a revisão, o aluno deverá tomar conhecimento do resultado.
+
+      Para maiores informações, [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+
+
+  utter_faq/ask_regulamento:
+  - text: Para acessar o Regulamento dos cursos Geral dos Cursos de Graduação, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Regulamento_Cursos.pdf)
+
+
+  utter_faq/ask_mec:
+  - text: |-
+      Os cursos superiores de tecnologia da Fatec, são Reconhecidos pelo Conselho Estadual de Educação.
+
+      Para maiores informações, [clique aqui](https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MTU3MTQ=/c1b85ea4d704f246bcced664fdaeddb6/QU7BTElTRSBFIERFU0VOVk9MVklNRU5UTyBERSBTSVNURU1BUw==#)
+
+
+  utter_faq/ask_mec_projeto:
+  - text: |-
+      O CST em Projetos Mecânicos é Reconhecido pelo Conselho Estadual de Educação, Portaria CEE/GP n° 187 de 24/05/2021, publicada no DOE de 25/05/2021, seção I pág. 26.
+
+      Para informações sobre a grade, [clique aqui](https://fatecmm.edu.br/index.php/cursos/projetos-mecanicos/matriz-mecanica-projetos)
+
+
+  utter_faq/ask_mec_fabricacao:
+  - text: |-
+      O CST em Fabricação Mecânica é Autorizado pelo Conselho Estadual de Educação, Parecer CD - 549/2018 15, publicado no DO de 13/04/2018, seção I, pág. 42.
+
+      Para informações sobre a grade, [clique aqui](https://fatecmm.edu.br/index.php/cursos/fabricacao-mecanica)
+
+
+  utter_faq/ask_mec_mecatronica:
+  - text: |-
+      O CST em Mecatrônica Industrial é Reconhecido pelo Conselho Estadual de Educação, Portaria CEE/GP nº 84 de 22/03/2021, publicada no DOE de 23/03/2021, seção I pág. 15.
+
+      Para informações sobre a grade, [clique aqui](https://fatecmm.edu.br/index.php/cursos/mecatronica-industrial/matriz-mecanica-precisao)
+
+
+  utter_faq/ask_mec_ads:
+  - text: |-
+      O CST em Análise e Desenvolvimento de Sistemas é Reconhecido pelo Conselho Estadual de Educação, Portaria CEE/GP nº 222 de 23/05/2017, publicada no DOE de 24/05/2017, seção I pág. 28.
+
+      Para informações sobre a grade, [clique aqui](https://fatecmm.edu.br/index.php/cursos/ads/matriz-ads)
+
+
+  utter_faq/ask_mec_gestao:
+  - text: |-
+      O CST em Gestão Empresarial é Reconhecido pelo Conselho Estadual de Educação, Portaria CEE/GP nº 101 de 02/03/2020, publicada no DOE de 03/03/2020, seção I pág. 34.
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/cursos/gestao-empresarial)
+
+
+  utter_faq/ask_troca_curso:
+  - text: |-
+      Não há troca de curso no meio do semestre. Para alteração, é necessário se inscrever no Edital de Transferência ou prestar o processo seletivo vestibular.
+      Para maiores informações,
+      [clique aqui](https://www.fatecmm.edu.br/)
+
+
+  utter_faq/ask_troca_turno:
+  - text: |-
+      Não há troca de turno no meio do semestre. Para isso, é necessário aguardar a data de alteração de matrícula em calendário escolar, ou se inscrever no Edital de Transferência ou prestar o processo seletivo vestibular.
+      Para maiores informações
+      [clique aqui](https://www.fatecmm.edu.br/)
+
+
+  utter_faq/ask_biblioteca:
+  - text: |-
+      A Biblioteca é constituída por obras de referências (dicionários, enciclopédias, etc), livros e periódicos relacionados com os cursos existentes na Unidade de Ensino, além de catálogos e folhetos informativos. A Biblioteca possui regulamento de acordo com a Portaria nº 499 de 21/11/2013 que deve ser observado pelos usuários. Para maiores informações
+       [clique aqui](https://www.fatecmm.edu.br/arquivos/RegulamentoBiblioteca.pdf)
+
+
+  utter_faq/ask_informacoes_cancelamento:
+  - text: |-
+      O cancelamento de matrícula é concedido quando:
+
+      •	constatada a ausência do aluno ingressante por vestibular em todas as aulas das duas primeiras semanas do primeiro período letivo regular
+
+      •	o aluno ingressante não obtiver aprovação em nenhuma atividade curricular no primeiro período letivo regular correspondente ao seu ingresso, não computados aproveitamentos de estudos.
+
+      •	o aluno que após 6 semestres de matrícula não obtiver um Percentual de Progressão superior a 33%
+
+      •	o aluno que não concluir seu curso no prazo máximo de integralização;
+
+      •	a pedido do próprio aluno, desde que apresente a justificativa por escrito;
+
+      •	por não renovação de matrícula nos prazos estabelecidos;
+
+      •	por regime disciplinar;
+
+      • a FATEC tomar conhecimento de que o aluno está matriculado em outra instituição pública de Ensino Superior.
+
+      • Para pedido de cancelamento, preencher o requerimento:
+       [clique aqui](https://www.fatecmm.edu.br/index.php/secretaria-academica)
+
+      O assunto encontra-se regulamentado através do Regulamento Geral dos cursos de graduação das FATEC’s do Centro Paula Souza Capítulo II, Seção IV. 
+
+
+  utter_faq/ask_tranferir_fatec:
+  - text: |-
+      Para transferência, é necessário se enquadrar no que diz o Edital de Transferência, e havendo vagas seu histórico escolar e suas ementas serão analisados para saber se atende às exigências do Edital.
+
+      Para maiores informações
+      [clique aqui](https://www.fatecmm.edu.br/)
+
+
+  utter_faq/ask_reposta_sim:
+  - text: |-
+     Digite sua pergunta!
+
+
+  utter_faq/ask_solicitacao_documento:
+  - text: |-      
+      Atestado de Matrícula
+
+      Comprovante de Matrícula
+
+      Declaração de Matrícula
+
+      Histórico escolar
+
+      Escreva qual opção acima você deseja:
+
+
+  utter_faq/ask_monitorias:
+  - text: |-
+      Para saber de Programa de monitorias [clique aqui](https://monitoria.fatecmm.edu.br/)
+
+
+  utter_faq/ask_localizacao:
+  - text: |-
+      Rua Ariovaldo Silveira Franco, 567 - Jd. 31 de Março
+      
+      CEP 13801-005 - Mogi Mirim(SP)
+    
+
+  utter_faq/ask_reposta_nova:
+  - text: "A qualquer momento digite sua dúvida!"
+  - text: "Se tiver outra pergunta digite abaixo!"
+  - text: "Estou à sua disposição, pode perguntar!"
+  - text: "Deixe sua dúvida que responderemos em seguida!"
+
+
+ ######### utters vestibular ##############
+  utter_faq/ask_aproveitamento_disciplinas:
+  - text: |-
+      Para eliminar matérias que já cursou anteriormente, você deverá fazer o upload da documentação refente à 
+      carga horária, ementa e programa das disciplinas cursadas, além do histórico escolar da instituição de 
+      ensino superior de origem.
+     
+
+  utter_faq/ask_matricula_sem_historico:
+  - text: |-
+      No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o 
+      Histórico fique pronto.
+
+
+  utter_faq/ask_escolaridade_publica:
+  - text: |-
+      Você pode obter uma declaração de Escoláridade Pública na escola em que você tenha concluído o ensino médio.
+  
+
+  utter_faq/ask_vestibular_novamente:
+  - text: |-
+      Você pode prestar o vestibular novamente, sendo aprovado será convocado para fazer a matrícula.
+
+
+  utter_faq/ask_outra_faculdade:
+  - text: |-
+      Se for instituição particular sim, se for pública não.
+        
+
+  utter_faq/ask_aulas_remotas:
+  - text: |-
+      Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), 
+      até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das 
+      aulas de forma presencial nas Fatecs.
+  
+
+  utter_faq/ask_idade_minima: 
+  - text: |-
+      Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos 
+      na data de Matrícula.
+
+
+  utter_faq/ask_permissao_vestibular:
+  - text: |-
+      Todos que já tenham concluído o Ensino Médio podem fazer o vestibular.  
+
+
+  utter_faq/ask_candidato_estrangeiro:
+  - text: |-
+      No que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
+      DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO:
+        
+        • Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico 
+        Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de 
+        estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala 
+        numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem. 
+        • Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; 
+      OU
+        • Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; 
+      OU 
+        • Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; 
+      OU
+        • As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, 
+        com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos 
+        documentos.
+
+
+  utter_faq/ask_pagamento_taxa_inscricao:
+  - text: |-
+      O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, mediante a apresentação do boleto 
+      ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet 
+      disponível no site do [vestibular](https://www.vestibularfatec.com.br).
+
+
+  utter_faq/ask_vestibular:
+  - text: |-
+      Vestibular é um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, 
+      o processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
+      Não será aplicada prova presencial para o presente Processo Seletivo.
+
+
+  utter_faq/ask_inscricao_vestibular:
+  - text: |- 
+      Para informações sobre como realizar a inscrição ou até quando as inscrições estarão abertas, [clique aqui](https://www.vestibularfatec.com.br), e siga os passos informados 🙂
+
+
+  utter_faq/ask_upload:
+  - text: |- 
+        Significa enviar arquivos para um servidor, ou seja, você vai enviar, no ato da inscrição, os seus documentos 
+        para o sistema de inscrição do Vestibular da Fatec, para que esses documentos sejam analisados posteriormente.
+
+
+  utter_faq/ask_pagamento_efetivado:
+  - text: |-
+      A confirmação será enviada ao e-mail informado na inscrição até dez dias depois do pagamento da taxa. 
+
+
+  utter_faq/ask_segunda_via_boleto:
+  - text: |-
+      Acesse o site do [vestibular](https://www.vestibularfatec.com.br) e clique na seção “Área do Candidato”. Em seguida, 
+      clique no link “2ª via do boleto bancário”.
+
+
+  utter_faq/ask_segunda_chamada:
+  - text: |-
+      A chamada de candidatos em 2ª opção só ocorrerá a partir da 2ª lista de convocação, ou seja, após serem convocados todos os 
+      candidatos aptos em 1ª opção da 1ª lista de convocação.
+      A lista de candidatos aptos na 2ª opção será formada pelos candidatos que não foram classificados dentro do limite de vagas fixados 
+      para o curso escolhido em 1ª opção.
+
+
+  utter_faq/ask_etapas_processo_seletivo:
+  - text: |-
+        O Processo Seletivo Vestibular do 2º semestre de 2021 seguirá o seguinte cronograma:
+        • De 10-05-2021 até as 15 horas do dia 11-06-2021 – Inscrições para o Processo Seletivo
+        • Dia 16-06-2021 a partir das 15 horas - Divulgação da Lista preliminar
+        • Dias 17-06 e 18-06-2021 - Período para recurso contra a lista preliminar de inscrições
+        • Dia 23-06-2021 a partir das 15 horas - Divulgação do resultado dos recursos
+        • Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral 
+        • Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista 
+        • Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
+        • Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
+ 
+        • Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
+        • Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista
+        • Dia 27-07-2021 - Matrícula da 2ª lista 
+        • Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
+        • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
+         
+        •  Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
+#   utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
+#   - text: |-
+#       O candidato que concluiu o Ensino Médio e que possua o Histórico Escolar com Certificado de conclusão do Ensino Médio.
+# # Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
+# # Médio.
+
+#   utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
+#   - text: |-
+#       Você não pode alterar o curso escolhido depois de ter feito a inscrição, nenhuma alteração nos campos "Fatec", "Curso e Período"
+#       e no Sistema de Pontuação Acrescida são permitidas. 
+# # Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
+# # “curso e período” e no Sistema de Pontuação Acrescida.
+
+  utter_faq/ask_prova:
+  - text: |-
+      Por conta da pandemia do COVID-19 não serão aplicadas provas presenciais. O critério adotado é o da 
+      análise do histórico escolar. A classificação final vai considerar a média aritmética simples das notas das 
+      disciplinas de português e matemática da 2ª série do Ensino Médio.
+
+
+  utter_faq/ask_redes_sociais:
+  - text: |-
+        Você pode nos seguir em:
+         • [LinkedIn](https://www.linkedin.com/school/fatec163/)
+         • [Facebook](https://www.facebook.com/fatecmm/)         
+         • [Instagram](https://www.instagram.com/fatecmogimirim/)
+
+
+  utter_faq/ask_sobre_o_curso:
+    - text: |- 
+        Sobre os cursos da Fatec é importante lembrar que:
+  
+          • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
+  
+  
+          • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
+
+
+  utter_faq/ask_sobre_documentos:
+    - text: |- 
+        Sobre documentos é importante lembrar que:
+  
+        
+          • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
+  
+  
+          • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
+  
+  
+          • Em caso da perda do CPF, você pode usar;
+            - CPF documento exclusivo;
+            - RG, desde que contenha o número do CPF;
+            - Carteira Nacional de Habilitação CNH.
+      
+
+actions:
+- action_default_fallback
