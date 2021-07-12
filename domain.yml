@@ -655,18 +655,6 @@ responses:
         • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
          
         •  Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
-#   utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
-#   - text: |-
-#       O candidato que concluiu o Ensino Médio e que possua o Histórico Escolar com Certificado de conclusão do Ensino Médio.
-# # Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
-# # Médio.
-
-#   utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
-#   - text: |-
-#       Você não pode alterar o curso escolhido depois de ter feito a inscrição, nenhuma alteração nos campos "Fatec", "Curso e Período"
-#       e no Sistema de Pontuação Acrescida são permitidas. 
-# # Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
-# # “curso e período” e no Sistema de Pontuação Acrescida.
 
   utter_faq/ask_prova:
   - text: |-
