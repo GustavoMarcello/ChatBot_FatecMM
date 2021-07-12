@@ -1,5 +1,5 @@
 # ***Projeto Chatbot Rasa***
-<p align="center"><img src =![Chatbot-conheca-800x445](https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg)</p>
+<p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
 
 <p align="center">
 <img src = https://img.shields.io/badge/RASA-Chatbot-blueviolet>
