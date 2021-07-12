@@ -2,7 +2,7 @@
 <p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
 
 <h3 align="center">
-UM chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de azevedo de Mogi Mirim.
+  Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de Azevedo de Mogi Mirim.
   
   Um Projeto realizado com todo o carrinho e amor, onde todos nós temos pela instituição, onde queremos ajudar a melhorá-la cada vez más.
 </h3>
@@ -15,36 +15,47 @@ UM chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na
 <img src = https://img.shields.io/badge/Python-Linguagem%20-brightgreen>
 </p>
 
-# ***Documentação***
+# 📁 ***Documentação***
 
 
-# ***Descrição do chatbot***
+# 🗃 ***Descrição do chatbot***
+
 * O projeto do chatbot foi realizado pelos bolsistas dentro da compasso UOl em parceiria com a Fatec, para realização de consulta de vestibular e secretaria
 
-# ***Principais Objetivos***
+# 📌 ***Principais Objetivos***
+
 * Ajudar no atentimento da fatec atráves do chatbot.
 * Direcionar o usário/aluno com perguntas e respostas.
 * Solucionar duvidas.
 * Ajudar em um rápido atentimento.
 * Diminuir o tempo de espera no atentimento. 
 
-# ***Tecnologias***
-* Python 3
-* Windows 10
-* Linux
-* Github
-* vscode
-* Rasa
-* Spacy/PT-BR
-* NLP
-* HTML/CSS
-* inteligência artificial
+# 🖱 ***Requisitos Necessarios***
+* Python 3.
+* Rasa.
+* Spacy/PT-BR.
 
-# ***Contribuidores***
+# 💻 ***Tecnologias***
+
+* Windows 10.
+* Linux.
+* Github.
+* vscode.
+* HTML/CSS.
+* inteligência artificial.
+
+# 🚨 ***Contribuidores***
+
 * [Compasso UOL](https://www.linkedin.com/company/compasso-uol/mycompany/)
 * [Fatec Mogi Mirim](https://www.linkedin.com/school/fatec163/)
 
-# ***Desenvolvidores***
+# 📧 ***FAQ's***
+
+- Se tiver algum ponto de melhoria, mandar alguma sugestão para os desenvolvedores.
+- Se não foi resolvido a sua duvida ou se teve algun problema, Entrar em contato com um de nossos desenvolvedores.
+
+# 👩‍💻👨‍💻 ***Desenvolvidores***
+
 - <b>[Caio Gabriel Ferreira](https://www.linkedin.com/in/caio-gferreira/)</b>
 - <b>[Gustavo Marcello](https://www.linkedin.com/in/gustavo-goetze-marcello-66275715a/)</b>
 - <b>[João Luiz Reis Bassi](https://www.linkedin.com/in/joão-bassi-6921821b1/)</b>
