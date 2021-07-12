@@ -960,6 +960,8 @@ nlu:
     - qualquer pessoa pode [tentar o vestibular](permissao_vestibular_entity)
     - quem pode [participar do processo seletivo](permissao_vestibular_entity)
     - o que e [necessario para fazer curso](permissao_vestibular_entity) fatec
+    - quem pode [tentar vaga](permissao_vestibular_entity) nos cursos
+    - quem é permitido [tentar vagas](permissao_vestibular_entity) nos cursos superiores
 
 
 - intent: faq/ask_candidato_estrangeiro
