@@ -1,2 +1,75 @@
-# ChatBot_FatecMM
-Projeto desenvolvimento de chat bot tipo faq
+# ***Projeto Chatbot Rasa***
+<p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
+
+<h1 align="center">ChatBot FATEC</h1>
+
+<h3 align="center">
+Este é um trabalho realizado com muito ❤️ pelos bolsistas da Compasso UOL e alunos da FATEC - Arthur de Azevedo de Mogi Mirim.
+</h3>
+
+<p align="center">
+<img src = https://img.shields.io/badge/RASA-Chatbot-blueviolet>
+<img src = https://img.shields.io/badge/NLP-Machine%20learning-blue>
+<img src = https://img.shields.io/badge/SpaCy-PT--BR-red>
+<img src = https://img.shields.io/badge/Inteligência_Artificial-Tecnologia-yellow>
+<img src = https://img.shields.io/badge/Python-Linguagem%20-brightgreen>
+</p>
+
+<h4 align="center">
+  <i>
+    O projeto é uma ação filantrópica que utiliza ferramentas open-source, visando a melhoria e eficiência da instituição pública FATEC Mogi Mirim, em conjunto como projeto final de estágio realizado pelo programa de bolsas da Compasso UOL de 2021.
+  </i>
+</h4>
+
+# 📖 Documentação
+- Documento na [última versão](https://google.com.br).
+
+# 🗃 Descrição do chatbot
+
+- O projeto do chatbot foi realizado pelos bolsistas dentro da compasso UOl em parceiria com a FATEC, para realização de consulta de vestibular e secretaria.
+
+# 📌 Principais Objetivos
+
+* Ajudar no atendimento da FATEC atráves do chatbot.
+* Direcionar o usuário/aluno com perguntas e respostas.
+* Solucionar duvidas.
+* Ajudar em um rápido atendimento.
+* Diminuir o tempo de espera no atendimento. 
+
+# 🗃 Pré-requisitos
+- <img src="https://img.icons8.com/color/16/000000/python.png"/> Python versão 3.8;
+- 🤖 RASA;
+- <img src="https://img.icons8.com/color/16/000000/agree-.png"/> SpaCy; 
+
+# 🛰 Tecnologias
+- <img src="https://img.icons8.com/color/16/000000/windows-client.png"/> Windows 10;
+- <img src="https://img.icons8.com/color/16/000000/linux.png"/> Linux Ubuntu 20.04;
+- <img src="https://img.icons8.com/ios-filled/16/000000/github.png"/> GitHub;
+- <img src="https://img.icons8.com/ios/16/000000/server.png"/> Servidor da FATEC;
+- 
+# 🎒 Contribuidores
+
+- <b>[Compasso UOL](https://compassouol.com/)</b>
+- <b>[FATEC Mogi Mirim](http://fatecmm.edu.br/)</b>
+
+# 🏷 FAQ's
+
+- Se você tiver dúvidas ou correções, abra uma issue para que possamos resolver o mais rápido possível.
+- Para qualquer outra dúvida ou preocupação, entre em contato.
+
+# 👨‍💻 Autores
+
+- <b>[Caio Gabriel Ferreira](https://www.linkedin.com/in/caio-gferreira/)</b>
+- <b>[Gustavo Marcello](https://www.linkedin.com/in/gustavo-goetze-marcello-66275715a/)</b>
+- <b>[João Luiz Reis Bassi](https://www.linkedin.com/in/joão-bassi-6921821b1/)</b>
+- <b>[João Victor Palhares Barbosa](https://www.linkedin.com/in/vicpb/)</b>
+- <b>[Joice Furigo](https://www.linkedin.com/in/joice-gon%C3%A7alves-furigo-498a06204/)</b>
+- <b>[Michael Jacinto](https://www.linkedin.com/in/michael-henrique-jacinto-01a188136/)</b>
+- <b>[Rafael Inácio](https://www.linkedin.com/in/rafaelinacioo/)</b>
+- <b>[Thiago Oliveira Claudino](https://www.linkedin.com/in/thiago-oliveira-271901100/)</b>
+- <b>[Vanessa Rotoli](https://www.linkedin.com/in/vanessa-rotoli-5a68a0125/)</b>
+- <b>[Victor Balbino Araujo](https://www.linkedin.com/in/victor-balbino-156b81208/)</b>
+
+# 🛒 Release
+
+Para verificar a versão do ChatBot, [clique aqui](https://github.com/vicpb/rasa-chatbot-sample/releases).

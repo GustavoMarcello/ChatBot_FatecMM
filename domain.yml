@@ -57,10 +57,14 @@ entities:
 - biblioteca_entity
 - informacoes_cancelamento_entity
 - tranferir_fatec_entity
-- reposta_sim_intenty
+- resposta_sim_intenty
 - solicitacao_documento_entity
 - monitorias_entity
+- proficiencia_ingles_entity
 - localizacao_entity
+- coordenacao_entity
+- direcao_entity
+- historia_entity
 #################### entidades vestibular###########
 - aproveitamento_entity
 - historico_entity
@@ -119,17 +123,25 @@ responses:
   - text: |-
       De seg. à sexta: das 8h às 11h / das 13h às 17h / e das 18h30 às 22h.
 
-      Porém, em virtude do período da pandemia Covid-19, estamos atendendo exclusivamente por e-mail:
-      [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
+      Porém, em virtude do período da pandemia Covid-19, estamos atendendo exclusivamente pelos e-mails:
+      • f163acad@cps.sp.gov.br
+      • luana.custodio@fatec.sp.gov.br
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
 
 
   utter_faq/ask_canais_atendimento:
   - text: |-
       Telefones: (19) 3806-2181 e 3806-3139.
 
+      Porém, em virtude do período da pandemia Covid-19, estamos atendendo exclusivamente pelos e-mails:
+      • f163acad@cps.sp.gov.br
+      • luana.custodio@fatec.sp.gov.br
 
-       Porém, em virtude do período da pandemia Covid-19, estamos atendendo exclusivamente por e-mail ou pelo whatsapp (19) 99152-9643:
-       [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
+      E também pelo WhatsApp:
+      • (19) 99152-9643
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
 
 
   utter_faq/ask_horarios_cursos:
@@ -149,7 +161,7 @@ responses:
 
   utter_faq/ask_projeto_pedagogico:
   - text: |-
-       •	Projeto dos curso são:
+       •	Projeto pedagógico dos curso são:
 
        •	Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ-PEDAG-PROJETOS.pdf) 
 
@@ -230,11 +242,13 @@ responses:
 
 
   utter_faq/ask_senha_institucional:
+
   - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para 
           
           douglas.pereira@fatec.sp.gov.br, 
           
           contendo nome completo e RA
+
 
 
   utter_faq/ask_trancamento:
@@ -308,14 +322,14 @@ responses:
 
 
   utter_faq/ask_matricula:
-  - text: |-
-      Para solicitar sobre:
-      Atestado de Matrícula;
-      Declaração de Matrícula;
-      Comprovante de Matrícula ou
-      Histórico escolar.
+  - text: "
+      Para solicitar sobre:\n
+      Atestado de Matrícula;\n
+      Declaração de Matrícula;\n
+      Comprovante de Matrícula;\n
+      Histórico escolar;\n
       Acesse o SIGA na área **SOLICITAÇÃO DE DOCUMENTOS** 
-      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)"
 
 
   utter_faq/ask_rematricula:
@@ -368,7 +382,8 @@ responses:
 
 
   utter_faq/ask_valor_curso:
-  - text: As Faculdades de Tecnologia –FATEC – mantidas pelo Centro Paula Souza são instituições públicas de ensino superior que oferecem cursos de graduação em tecnologia gratuitos, devidamente reconhecidos, estruturados e desenvolvidos para atender os segmentos atuais e emergentes da atividade tanto industrial como do setor de serviços, com foco na constante evolução tecnológica.
+  - text: As Faculdades de Tecnologia –FATEC – mantidas pelo Centro Paula Souza são instituições públicas de ensino superior que oferecem cursos de graduação em tecnologia **GRATUITOS**, devidamente reconhecidos, estruturados e desenvolvidos para atender os segmentos atuais e emergentes da atividade tanto industrial como do setor de serviços, com foco na constante evolução tecnológica.
+
 
   
   utter_faq/ask_abono_faltas:
@@ -492,7 +507,7 @@ responses:
       [clique aqui](https://www.fatecmm.edu.br/)
 
 
-  utter_faq/ask_reposta_sim:
+  utter_faq/ask_resposta_sim:
   - text: |-
      Digite sua pergunta!
 
@@ -514,15 +529,48 @@ responses:
   - text: |-
       Para saber de Programa de monitorias [clique aqui](https://monitoria.fatecmm.edu.br/)
 
+  utter_faq/ask_proficiencia_ingles:
+  - text: |-
+      A unidade de ensino aplica exame de proficiência em Inglês para os cursos de ADS e Mecatrônica Industrial. Este exame verifica se o aluno já possui os conhecimentos que permitem dispensá-lo de cursar as disciplinas de seu curso de graduação.
+
+      Para as disciplinas de Inglês não é necessário o aluno preencher requerimento nem comprovar conhecimento.
+      Na primeira semana de aulas, o professor da disciplina realizará os trâmites para aplicação.
+
+      O aluno aprovado em exame de proficiência terá a disciplina registrada em seu Histórico Escolar, com código específico, sendo-lhe atribuída a carga horária correspondente, para fins de integralização.
+
+      O aluno poderá se submeter ao exame de proficiência, apenas uma vez em cada disciplina, nos períodos previstos pelo Calendário Escolar.
+      Poderá ser autorizado um novo exame de proficiência para disciplinas de língua estrangeira quando houver comprovação de experiência significativa de aprendizagem da língua em questão, posterior à realização do primeiro exame.
+
+
 
   utter_faq/ask_localizacao:
   - text: |-
       Rua Ariovaldo Silveira Franco, 567 - Jd. 31 de Março
       
       CEP 13801-005 - Mogi Mirim(SP)
+
+  utter_faq/ask_coordenacao:
+  - text: |-
+      Responsável pela administração do ensino básico e profissional dos currículos de graduação.
+
+      Organiza o trabalho do docente, programas e planos de ensino, aprova a distribuição de aulas e horário de trabalho dos auxiliares. Administra os núcleos, laboratórios, oficinas e outros órgãos didáticos.
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional)
+
+
+  utter_faq/ask_direcao:
+  - text: |-
+      Órgão executivo, encarregado de dirigir e coordenar as atividades da Faculdade.
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional)
+
+      
+  utter_faq/ask_historia:
+  - text: |-
+      Para mais informações sobre a história da **Fatec Mogi Mirim**, [clique aqui](https://fatecmm.edu.br/index.php/historia)
     
 
-  utter_faq/ask_reposta_nova:
+  utter_faq/ask_resposta_nova:
   - text: "A qualquer momento digite sua dúvida!"
   - text: "Se tiver outra pergunta digite abaixo!"
   - text: "Estou à sua disposição, pode perguntar!"
@@ -585,12 +633,13 @@ responses:
         Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de 
         estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala 
         numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem. 
+
         • Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; 
-      OU
+      
         • Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; 
-      OU 
+      
         • Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; 
-      OU
+      
         • As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, 
         com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos 
         documentos.
@@ -660,7 +709,8 @@ responses:
 
         • Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
  
-        • Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
+        • Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista
+
         • Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista
 
         • Dia 27-07-2021 - Matrícula da 2ª lista 
@@ -693,17 +743,21 @@ responses:
   utter_faq/ask_redes_sociais:
   - text: |-
         Você pode nos seguir em:
-         • [LinkedIn](https://www.linkedin.com/school/fatec163/)
-         • [Facebook](https://www.facebook.com/fatecmm/)         
-         • [Instagram](https://www.instagram.com/fatecmogimirim/)
+
+        [LinkedIn](https://www.linkedin.com/school/fatec163/)
+
+        [Facebook](https://www.facebook.com/fatecmm/)    
+
+        [Instagram](https://www.instagram.com/fatecmogimirim/)
 
 
   utter_faq/ask_sobre_o_curso:
     - text: |- 
         Sobre os cursos da Fatec é importante lembrar que:
-  
+
           • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
-  
+
+          • Não é possível trocar o curso por outro após a realização da inscrição para o vestibular
   
           • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
 
@@ -712,18 +766,16 @@ responses:
     - text: |- 
         Sobre documentos é importante lembrar que:
   
-        
-          • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
+        • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
   
+        • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
   
-          • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
-  
-  
-          • Em caso da perda do CPF, você pode usar;
-            - CPF documento exclusivo;
-            - RG, desde que contenha o número do CPF;
-            - Carteira Nacional de Habilitação CNH.
+        • Em caso da perda do CPF, você pode usar:
+        - CPF documento exclusivo;
+        - RG, desde que contenha o número do CPF;
+        - Carteira Nacional de Habilitação CNH.
       
 
 actions:
 - action_default_fallback
+
