@@ -1089,6 +1089,7 @@ nlu:
     - quando vai ter [prova](prova_entity)
     - o [vestibular remoto](prova_entity) vai ser quando
     - o [vestibular online](prova_entity) vai ser quando
+    - a fatec vai ter [prova do vestibular](prova_entity)
 
 
 - intent: faq/ask_redes_sociais
