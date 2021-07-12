@@ -1050,6 +1050,26 @@ nlu:
     - nasci em [outro pais](candidato_estrangeiro_entity)
     - nasci em [outra nação](candidato_estrangeiro_entity)
     - nasci em [outra nacao](candidato_estrangeiro_entity)
+    - sou [boliviano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou da [bolivia](candidato_estrangeiro_entity), posso me matricular
+    - sou [peruano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou do [peru](candidato_estrangeiro_entity), posso me matricular
+    - sou [colombiano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou da [colombia](candidato_estrangeiro_entity), posso me matricular
+    - sou [chileno](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou do [chile](candidato_estrangeiro_entity), posso me matricular
+    - sou [equatoriano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou do [equador](candidato_estrangeiro_entity), posso me matricular
+    - sou [venezuelano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou da [venezuela](candidato_estrangeiro_entity), posso me matricular
+    - sou [guianes](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou da [guiana](candidato_estrangeiro_entity), posso me matricular
+    - sou [surinameso](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou do [suriname](candidato_estrangeiro_entity), posso me matricular
+    - sou [uruguaiano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou do [uruguai](candidato_estrangeiro_entity), posso me matricular
+    - sou [africano](candidato_estrangeiro_entity), posso estudar na fatec
+    - sou de um país da [africa](candidato_estrangeiro_entity), posso me matricular
 
     
 - intent: faq/ask_pagamento_taxa_inscricao
@@ -1200,9 +1220,9 @@ nlu:
     - posso fazer uma [mudança](sobre_o_curso_entity) de curso
     - posso [muda](sobre_o_curso_entity) o curso
     - tem problema em [alterar](sobre_o_curso_entity) o curso
-    - consigo [substituir](sobre_o_curso_entity) o curso
-    - quero [mudar de curso](sobre_o_curso_entity) após concluir a inscrição 
-
+    - consigo [substituir](sobre_o_curso_entity) o curso 
+    - faço mecatronica, [posso fazer](sobre_o_curso_entity) ads tambem 
+    - [posso fazer outro curso](sobre_o_curso_entity) durante a noite na fatec
 
 - intent: faq/ask_sobre_documentos
   examples: |
