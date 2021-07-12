@@ -1,2 +1,41 @@
-# ChatBot_FatecMM
-Projeto desenvolvimento de chat bot tipo faq
+# ***Projeto Chatbot Rasa***
+![Chatbot-conheca-800x445](https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg)
+
+# ***Documentação***
+
+
+# ***Descrição do chatbot***
+* O projeto do chatbot foi realizado pelos bolsistas dentro da compasso UOl em parceiria com a Fatec, para realização de consulta de vestibular e secretaria
+
+# ***Principal Objetivo***
+* Ajudar no atentimento da fatec atráves do chatbot.
+* Direcionar o usário/aluno com perguntas e respostas.
+* Solucionar duvidas.
+* Ajudar em um rápido atentimento.
+* Diminuir o tempo de espera no atentimento. 
+
+# ***Tecnologias***
+* Python 3
+* Windows 10
+* Linux
+* Github
+* vscode
+* Rasa
+* SpacyNLP
+* HTML/CSS
+
+# ***Contribuidores***
+* [Compasso UOL](https://www.linkedin.com/company/compasso-uol/mycompany/)
+* [Fatec Mogi Mirim](https://www.linkedin.com/school/fatec163/)
+
+# ***Autores***
+- <b>[Caio Gabriel Ferreira](https://www.linkedin.com/in/caio-gferreira/)</b>
+- <b>[Gustavo Marcello](https://www.linkedin.com/in/gustavo-goetze-marcello-66275715a/)</b>
+- <b>[João Luiz Reis Bassi](https://www.linkedin.com/in/joão-bassi-6921821b1/)</b>
+- <b>[João Victor Palhares Barbosa](https://www.linkedin.com/in/vicpb/)</b>
+- <b>[Joice Furigo](https://www.linkedin.com/in/joice-gon%C3%A7alves-furigo-498a06204/)</b>
+- <b>[Michael Jacinto](https://www.linkedin.com/in/michael-henrique-jacinto-01a188136/)</b>
+- <b>[Rafael Inácio](https://www.linkedin.com/in/rafaelinacioo/)</b>
+- <b>[Thiago Oliveira Claudino](https://www.linkedin.com/in/thiago-oliveira-271901100/)</b>
+- <b>[Vanessa Rotoli](https://www.linkedin.com/in/vanessa-rotoli-5a68a0125/)</b>
+- <b>[Victor Balbino Araujo](https://www.linkedin.com/in/victor-balbino-156b81208/)</b>
