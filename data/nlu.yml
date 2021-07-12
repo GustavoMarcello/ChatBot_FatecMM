@@ -153,10 +153,13 @@ nlu:
     - a [secretaria está aberta](horario_secretaria_entity)?
     - que [horário a secretaria] (horario_secretaria_entity) funciona?
     - qual o [horário de funcionamento da secretaria](horario_secretaria_entity)?
-    - [horario da secretaria](horario_secretaria_entity).
+    - [horario secretaria](horario_secretaria_entity).
     - a [secretaria já fechou](horario_secretaria_entity)?
     - a [secretaria voltou funcionar](horario_secretaria_entity)?
     - [horário da secretaria](horario_secretaria_entity)
+    - [horário da secretaria acadêmica](horario_secretaria_entity)
+    - [horário secretaria academica](horario_secretaria_entity)
+    - [secretaria acadêmica](horario_secretaria_entity)
     - A secretaria esta [funciando em qual horário](horario_secretaria_entity)?
 
 
@@ -690,6 +693,18 @@ nlu:
     - a fatec tem [monitoria](monitorias_entity)
 
 
+- intent: faq/ask_proficiencia_ingles
+  examples: |
+    - posso [pedir proficiência de inglês](proficiencia_ingles_entity)?
+    - gostaria de ter [proficiencia](proficiencia_ingles_entity) de idioma
+    - como peço [proficiencia ingles](proficiencia_ingles_entity)
+    - tenho que [realizar proficiencia](proficiencia_ingles_entity)
+    - preciso [fazer proficiência](proficiencia_ingles_entity)
+    - eliminar [ingles](proficiencia_ingles_entity)
+    - quero [eliminar ingles](proficiencia_ingles_entity)
+    - quero [proveito de ingles](proficiencia_ingles_entity)
+    - necessito fazer [proficiência](proficiencia_ingles_entity)
+
 - intent: faq/ask_localizacao
   examples: |
     - qual a [localizacao](localizacao_entity) da fatec
@@ -699,6 +714,29 @@ nlu:
     - [onde a fatec](localizacao_entity) fica
     - onde [fica fatec](localizacao_entity)
 
+- intent: faq/ask_coordenacao
+  examples: |
+    - como funciona a [coordenacao](coordenacao_entity) da faculdade?
+    - como funciona a [coordenação](coordenacao_entity) da faculdade?
+    - [coordenador](coordenacao_entity)
+    - [coordenadora](coordenacao_entity)
+    - [coordenadores](coordenacao_entity)
+    - [coordenadoras](coordenacao_entity)
+    - [coordenadoria](coordenacao_entity)
+    - [coordenadorias](coordenacao_entity)
+    - informação sobre [coordenacao de curso](coordenacao_entity)
+    - informação sobre [coordenação de curso](coordenacao_entity)
+
+- intent: faq/ask_direcao
+  examples: |
+    - como funciona a [direcao](direcao_entity) da faculdade?
+    - como funciona a [direção](direcao_entity) da faculdade?
+    - [diretores](direcao_entity)
+    - [diretor](direcao_entity)
+    - [diretora](direcao_entity)
+    - [diretoria](direcao_entity)
+    - [diretoria academica](direcao_entity)
+  
 
 - intent: fallback_intent
   examples: |
