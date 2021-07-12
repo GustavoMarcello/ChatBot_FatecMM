@@ -3,6 +3,7 @@
 
 <h3 align="center">
 UM chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de azevedo de Mogi Mirim.
+  
   Um Projeto realizado com todo o carrinho e amor, onde todos nós temos pela instituição, onde queremos ajudar a melhorá-la cada vez más.
 </h3>
 
