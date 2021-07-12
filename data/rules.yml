@@ -27,7 +27,7 @@ rules:
   steps:
   - intent: faq
   - action: utter_faq
-  - action: utter_faq/ask_reposta_nova
+  - action: utter_faq/ask_resposta_nova
 
 - rule: Saudacao
   steps:
