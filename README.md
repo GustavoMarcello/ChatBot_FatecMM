@@ -1,10 +1,10 @@
 # ***Projeto Chatbot Rasa***
 <p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
 
+<h1 align="center">ChatBot FATEC</h1>
+
 <h3 align="center">
-  Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de Azevedo de Mogi Mirim.
-  
-  Um Projeto realizado com todo o carrinho e amor, onde todos nós temos pela instituição, onde queremos ajudar a melhorá-la cada vez más.
+Este é um trabalho realizado com muito ❤️ pelos bolsistas da Compasso UOL e alunos da FATEC - Arthur de Azevedo de Mogi Mirim.
 </h3>
 
 <p align="center">
@@ -15,46 +15,49 @@
 <img src = https://img.shields.io/badge/Python-Linguagem%20-brightgreen>
 </p>
 
-# 📁 ***Documentação***
+<h4 align="center">
+  <i>
+    O projeto é uma ação filantrópica que utiliza ferramentas open-source, visando a melhoria e eficiência da instituição pública FATEC Mogi Mirim, em conjunto como projeto final de estágio realizado pelo programa de bolsas da Compasso UOL de 2021.
+  </i>
+</h4>
 
+# 📖 Documentação
+- Documento na [última versão](https://google.com.br).
 
-# 🗃 ***Descrição do chatbot***
+# 🗃 Descrição do chatbot
 
-* O projeto do chatbot foi realizado pelos bolsistas dentro da compasso UOl em parceiria com a Fatec, para realização de consulta de vestibular e secretaria
+- O projeto do chatbot foi realizado pelos bolsistas dentro da compasso UOl em parceiria com a FATEC, para realização de consulta de vestibular e secretaria.
 
-# 📌 ***Principais Objetivos***
+# 📌 Principais Objetivos
 
-* Ajudar no atentimento da fatec atráves do chatbot.
-* Direcionar o usário/aluno com perguntas e respostas.
+* Ajudar no atendimento da FATEC atráves do chatbot.
+* Direcionar o usuário/aluno com perguntas e respostas.
 * Solucionar duvidas.
-* Ajudar em um rápido atentimento.
-* Diminuir o tempo de espera no atentimento. 
+* Ajudar em um rápido atendimento.
+* Diminuir o tempo de espera no atendimento. 
 
-# 🖱 ***Requisitos Necessarios***
-* Python 3.
-* Rasa.
-* Spacy/PT-BR.
+# 🗃 Pré-requisitos
+- <img src="https://img.icons8.com/color/16/000000/python.png"/> Python versão 3.8;
+- 🤖 RASA;
+- <img src="https://img.icons8.com/color/16/000000/agree-.png"/> SpaCy; 
 
-# 💻 ***Tecnologias***
+# 🛰 Tecnologias
+- <img src="https://img.icons8.com/color/16/000000/windows-client.png"/> Windows 10;
+- <img src="https://img.icons8.com/color/16/000000/linux.png"/> Linux Ubuntu 20.04;
+- <img src="https://img.icons8.com/ios-filled/16/000000/github.png"/> GitHub;
+- <img src="https://img.icons8.com/ios/16/000000/server.png"/> Servidor da FATEC;
+- 
+# 🎒 Contribuidores
 
-* Windows 10.
-* Linux.
-* Github.
-* vscode.
-* HTML/CSS.
-* inteligência artificial.
+- <b>[Compasso UOL](https://compassouol.com/)</b>
+- <b>[FATEC Mogi Mirim](http://fatecmm.edu.br/)</b>
 
-# 🚨 ***Contribuidores***
+# 🏷 FAQ's
 
-* [Compasso UOL](https://www.linkedin.com/company/compasso-uol/mycompany/)
-* [Fatec Mogi Mirim](https://www.linkedin.com/school/fatec163/)
+- Se você tiver dúvidas ou correções, abra uma issue para que possamos resolver o mais rápido possível.
+- Para qualquer outra dúvida ou preocupação, entre em contato.
 
-# 📧 ***FAQ's***
-
-- Se tiver algum ponto de melhoria, mandar alguma sugestão para os desenvolvedores.
-- Se não foi resolvido a sua duvida ou se teve algun problema, Entrar em contato com um de nossos desenvolvedores.
-
-# 👩‍💻👨‍💻 ***Desenvolvidores***
+# 👨‍💻 Autores
 
 - <b>[Caio Gabriel Ferreira](https://www.linkedin.com/in/caio-gferreira/)</b>
 - <b>[Gustavo Marcello](https://www.linkedin.com/in/gustavo-goetze-marcello-66275715a/)</b>
@@ -66,3 +69,7 @@
 - <b>[Thiago Oliveira Claudino](https://www.linkedin.com/in/thiago-oliveira-271901100/)</b>
 - <b>[Vanessa Rotoli](https://www.linkedin.com/in/vanessa-rotoli-5a68a0125/)</b>
 - <b>[Victor Balbino Araujo](https://www.linkedin.com/in/victor-balbino-156b81208/)</b>
+
+# 🛒 Release
+
+Para verificar a versão do ChatBot, [clique aqui](https://github.com/vicpb/rasa-chatbot-sample/releases).
