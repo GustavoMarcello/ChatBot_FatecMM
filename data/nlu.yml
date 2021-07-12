@@ -1119,6 +1119,8 @@ nlu:
     - posso [muda](sobre_o_curso_entity) o curso
     - tem problema em [alterar](sobre_o_curso_entity) o curso
     - consigo [substituir](sobre_o_curso_entity) o curso 
+    - faço mecatronica, [posso fazer](sobre_o_curso_entity) ads tambem 
+    - [posso fazer outro curso](sobre_o_curso_entity) durante a noite na fatec
 
 
 - intent: faq/ask_sobre_documentos
