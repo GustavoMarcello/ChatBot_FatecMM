@@ -2,7 +2,7 @@
 <p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
 
 <h3 align="center">
-UM chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de azevedo de Mogi Mirim.
+UM chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de azevedo de Mogi Mirim.\n
 Um Projeto realizado com todo o carrinho e amor, onde todos nós temos pela instituição, onde queremos ajudar a melhorá-la cada vez más.
 </h3>
 
@@ -43,7 +43,7 @@ Um Projeto realizado com todo o carrinho e amor, onde todos nós temos pela inst
 * [Compasso UOL](https://www.linkedin.com/company/compasso-uol/mycompany/)
 * [Fatec Mogi Mirim](https://www.linkedin.com/school/fatec163/)
 
-# ***Autores***
+# ***Desenvolvidores***
 - <b>[Caio Gabriel Ferreira](https://www.linkedin.com/in/caio-gferreira/)</b>
 - <b>[Gustavo Marcello](https://www.linkedin.com/in/gustavo-goetze-marcello-66275715a/)</b>
 - <b>[João Luiz Reis Bassi](https://www.linkedin.com/in/joão-bassi-6921821b1/)</b>
