@@ -57,13 +57,14 @@ entities:
 - biblioteca_entity
 - informacoes_cancelamento_entity
 - tranferir_fatec_entity
-- reposta_sim_intenty
+- resposta_sim_intenty
 - solicitacao_documento_entity
 - monitorias_entity
 - proficiencia_ingles_entity
 - localizacao_entity
 - coordenacao_entity
 - direcao_entity
+- historia_entity
 #################### entidades vestibular###########
 - aproveitamento_entity
 - historico_entity
@@ -137,7 +138,7 @@ responses:
       • f163acad@cps.sp.gov.br
       • luana.custodio@fatec.sp.gov.br
 
-      E também pelo whatsapp:
+      E também pelo WhatsApp:
       • (19) 99152-9643
 
       Para mais informações, [clique aqui](https://fatecmm.edu.br/arquivos/CANAIS_ATENDIMENTO_FATEC.jpg)
@@ -500,7 +501,7 @@ responses:
       [clique aqui](https://www.fatecmm.edu.br/)
 
 
-  utter_faq/ask_reposta_sim:
+  utter_faq/ask_resposta_sim:
   - text: |-
      Digite sua pergunta!
 
@@ -550,14 +551,20 @@ responses:
 
       Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional)
 
+
   utter_faq/ask_direcao:
   - text: |-
       Órgão executivo, encarregado de dirigir e coordenar as atividades da Faculdade.
 
-      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional) 
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional)
+
+      
+  utter_faq/ask_historia:
+  - text: |-
+      Para mais informações sobre a história da **Fatec Mogi Mirim**, [clique aqui](https://fatecmm.edu.br/index.php/historia)
     
 
-  utter_faq/ask_reposta_nova:
+  utter_faq/ask_resposta_nova:
   - text: "A qualquer momento digite sua dúvida!"
   - text: "Se tiver outra pergunta digite abaixo!"
   - text: "Estou à sua disposição, pode perguntar!"

@@ -25,6 +25,7 @@ nlu:
     - [olaa](saudacao_entity)
     - [oii](saudacao_entity)
     - [salve](saudacao_entity)
+    - [sussa](saudacao_entity)
     - [ei](saudacao_entity)
     - [hey](saudacao_entity)
     - [aoba](saudacao_entity)
@@ -33,6 +34,12 @@ nlu:
     - [como você está](saudacao_entity)
     - ola, [beleza](saudacao_entity)
     - beleza [mano](saudacao_entity)
+    - [Tudo bem?](saudacao_entity)
+    - [Tudo bom?](saudacao_entity)
+    - [Tudo certo?](saudacao_entity)
+    - [Tudo beleza?](saudacao_entity)
+    - [Tudo tranquilo?](saudacao_entity)
+    - [Tudo sussa?](saudacao_entity)
 
 - intent: tchau_intent
   examples: |
@@ -179,6 +186,7 @@ nlu:
     - qual é o [telefone](canais_atendimento_entity)
     - tem como passar o [telefone](canais_atendimento_entity)?
     - quais são os [canais de atendimentos](canais_atendimento_entity)
+    - qual o [contato corpo docente](canais_atendimento_entity)
 
 
 - intent: faq/ask_horarios_cursos
@@ -474,6 +482,8 @@ nlu:
     - [cursos da fatec](cursos_ofericidos_entity)
     - [curso da fatec](cursos_ofericidos_entity)
     - [faculdade do que](cursos_ofericidos_entity)
+    - [quais são os cursos](cursos_ofericidos_entity) da fatec
+    - que [curso tem](cursos_ofericidos_entity) da fatec
 
 
 - intent: faq/ask_historico_escolar
@@ -483,6 +493,9 @@ nlu:
     - Como eu consulto o meu [historico escolar](historico_escolar_entity)?
     - Quero saber [sobre histórico escolar](historico_escolar_entity)?
     - Gostaria de saber sobre o [meu histórico escolar](historico_escolar_entity)?
+    - [preciso do meu histórico](historico_escolar_entity)
+    - [preciso do histórico](historico_escolar_entity)
+    - [necessito histórico](historico_escolar_entity)
 
 
 - intent: faq/ask_duracao_curso
@@ -669,26 +682,26 @@ nlu:
     - é possível fazer a [troca de faculdade](tranferir_fatec_entity)?
 
 
-- intent: faq/ask_reposta_sim
+- intent: faq/ask_resposta_sim
   examples: |
-    - [sim](reposta_sim_intenty)
-    - [pode](reposta_sim_intenty)
-    - [quero ajuda](reposta_sim_intenty)
-    - [s](reposta_sim_intenty)
-    - [yes](reposta_sim_intenty)
-    - [por favor](reposta_sim_intenty)
-    - [claro](reposta_sim_intenty)
-    - [ctz](reposta_sim_intenty)
-    - [siim](reposta_sim_intenty)
-    - [siiiiim](reposta_sim_intenty)
-    - [claaro](reposta_sim_intenty)
-    - [ctza](reposta_sim_intenty)
-    - [isso](reposta_sim_intenty)
-    - [tá](reposta_sim_intenty)
-    - [ok](reposta_sim_intenty)
-    - [com certeza](reposta_sim_intenty)
-    - [isso aí](reposta_sim_intenty)
-    - [Sim](reposta_sim_intenty)
+    - [sim](resposta_sim_intenty)
+    - [pode](resposta_sim_intenty)
+    - [quero ajuda](resposta_sim_intenty)
+    - [s](resposta_sim_intenty)
+    - [yes](resposta_sim_intenty)
+    - [por favor](resposta_sim_intenty)
+    - [claro](resposta_sim_intenty)
+    - [ctz](resposta_sim_intenty)
+    - [siim](resposta_sim_intenty)
+    - [siiiiim](resposta_sim_intenty)
+    - [claaro](resposta_sim_intenty)
+    - [ctza](resposta_sim_intenty)
+    - [isso](resposta_sim_intenty)
+    - [tá](resposta_sim_intenty)
+    - [ok](resposta_sim_intenty)
+    - [com certeza](resposta_sim_intenty)
+    - [isso aí](resposta_sim_intenty)
+    - [Sim](resposta_sim_intenty)
 
 
 - intent: faq/ask_solicitacao_documento
@@ -729,6 +742,7 @@ nlu:
     - qual é o [endereço](localizacao_entity) da fatec
     - [onde a fatec](localizacao_entity) fica
     - onde [fica fatec](localizacao_entity)
+    - [onde fica](localizacao_entity)
 
 - intent: faq/ask_coordenacao
   examples: |
@@ -752,6 +766,13 @@ nlu:
     - [diretora](direcao_entity)
     - [diretoria](direcao_entity)
     - [diretoria academica](direcao_entity)
+
+- intent: faq/ask_historia
+  examples: |
+    - qual a [historia fatec](historia_entity)
+    - qual a [historia faculdade](historia_entity)
+    - qual a [historia](historia_entity)
+
   
 
 - intent: fallback_intent
@@ -826,12 +847,10 @@ nlu:
     - k 
     - l 
     - m
-    - n 
     - o
     - p
     - q
     - r 
-    - s 
     - t 
     - u 
     - v 
@@ -975,6 +994,8 @@ nlu:
     - [aulas pelo computador](aulas_remotas_entity)
     - as [aulas serão remotas](aulas_remotas_entity)
     - as [aulas serão presencias](aulas_remotas_entity)
+    - as [aulas presencias](aulas_remotas_entity)
+    - as [aula presencia](aulas_remotas_entity)
     - as [aulas são pelo computador](aulas_remotas_entity)
     - [aulas corona virus](aulas_remotas_entity) como serao
     - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
