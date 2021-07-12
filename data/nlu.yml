@@ -1087,7 +1087,6 @@ nlu:
     - [prova virtual](prova_entity)
     - [prova online](prova_entity)
     - quando vai ter [prova](prova_entity)
-    - quando vai ter [vestibular](prova_entity)
     - o [vestibular remoto](prova_entity) vai ser quando
     - o [vestibular online](prova_entity) vai ser quando
 
