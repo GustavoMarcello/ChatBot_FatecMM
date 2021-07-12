@@ -1118,7 +1118,8 @@ nlu:
     - posso fazer uma [mudança](sobre_o_curso_entity) de curso
     - posso [muda](sobre_o_curso_entity) o curso
     - tem problema em [alterar](sobre_o_curso_entity) o curso
-    - consigo [substituir](sobre_o_curso_entity) o curso 
+    - consigo [substituir](sobre_o_curso_entity) o curso
+    - quero [mudar de curso](sobre_o_curso_entity) após concluir a inscrição 
 
 
 - intent: faq/ask_sobre_documentos
