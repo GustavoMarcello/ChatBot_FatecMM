@@ -1035,6 +1035,8 @@ nlu:
     - qualquer pessoa pode [tentar o vestibular](permissao_vestibular_entity)
     - quem pode [participar do processo seletivo](permissao_vestibular_entity)
     - o que e [necessario para fazer curso](permissao_vestibular_entity) fatec
+    - quem pode [tentar vaga](permissao_vestibular_entity) nos cursos
+    - quem é permitido [tentar vagas](permissao_vestibular_entity) nos cursos superiores
 
 
 - intent: faq/ask_candidato_estrangeiro
@@ -1090,6 +1092,11 @@ nlu:
     - quando as inscriçoes para o vestibular [abrem](inscricao_vestibular_entity)
     - as inscriçoes para o vestibular [abrir](inscricao_vestibular_entity) quando
     - [quando vai ser](inscricao_vestibular_entity) a prova do vestibular
+    - como [faço a inscrição](inscricao_vestibular_entity) para o vestibular
+    - quero saber como eu [faço a inscricão](inscricao_vestibular_entity)
+    - como [faço a inscricao](inscricao_vestibular_entity)
+    - gostaria de saber como [faco a inscrição](inscricao_vestibular_entity)
+    - quero saber como eu [faco a inscricão](inscricao_vestibular_entity)
 
 
 - intent: faq/ask_upload
@@ -1162,9 +1169,9 @@ nlu:
     - [prova virtual](prova_entity)
     - [prova online](prova_entity)
     - quando vai ter [prova](prova_entity)
-    - quando vai ter [vestibular](prova_entity)
     - o [vestibular remoto](prova_entity) vai ser quando
     - o [vestibular online](prova_entity) vai ser quando
+    - a fatec vai ter [prova do vestibular](prova_entity)
 
 
 - intent: faq/ask_redes_sociais
@@ -1193,7 +1200,8 @@ nlu:
     - posso fazer uma [mudança](sobre_o_curso_entity) de curso
     - posso [muda](sobre_o_curso_entity) o curso
     - tem problema em [alterar](sobre_o_curso_entity) o curso
-    - consigo [substituir](sobre_o_curso_entity) o curso 
+    - consigo [substituir](sobre_o_curso_entity) o curso
+    - quero [mudar de curso](sobre_o_curso_entity) após concluir a inscrição 
 
 
 - intent: faq/ask_sobre_documentos
