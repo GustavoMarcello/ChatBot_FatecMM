@@ -104,7 +104,7 @@ responses:
   - text: Olá eu sou um bot criado pela FATEC!
 
   utter_obrigado:
-  - text: Muito obrigado!
+  - text: De nada!
   - text: Obrigado volte sempre!
   - text: Obrigado até logo!
   - text: Obrigado fico feliz por ter usado nosso bot!
@@ -242,7 +242,13 @@ responses:
 
 
   utter_faq/ask_senha_institucional:
-  - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para **douglas.pereira@fatec.sp.gov.br**, contendo nome completo e RA.
+
+  - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para 
+          
+          douglas.pereira@fatec.sp.gov.br, 
+          
+          contendo nome completo e RA
+
 
 
   utter_faq/ask_trancamento:
@@ -695,11 +701,11 @@ responses:
 
         • Dia 23-06-2021 a partir das 15 horas - Divulgação do resultado dos recursos
 
-        • Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral
+        • Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral 
 
-        • Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista
+        • Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista 
 
-        • Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista
+        • Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
 
         • Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
  
@@ -707,14 +713,25 @@ responses:
 
         • Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista
 
-        • Dia 27-07-2021 - Matrícula da 2ª lista
+        • Dia 27-07-2021 - Matrícula da 2ª lista 
 
-        • Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
+        • Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
+        
+        • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
+         
+        • Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
+#   utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
+#   - text: |-
+#       O candidato que concluiu o Ensino Médio e que possua o Histórico Escolar com Certificado de conclusão do Ensino Médio.
+# # Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
+# # Médio.
 
-        • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista
-
-        •  Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
-
+#   utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
+#   - text: |-
+#       Você não pode alterar o curso escolhido depois de ter feito a inscrição, nenhuma alteração nos campos "Fatec", "Curso e Período"
+#       e no Sistema de Pontuação Acrescida são permitidas. 
+# # Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
+# # “curso e período” e no Sistema de Pontuação Acrescida.
 
   utter_faq/ask_prova:
   - text: |-
