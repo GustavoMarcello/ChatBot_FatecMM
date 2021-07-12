@@ -1,6 +1,11 @@
 # ***Projeto Chatbot Rasa***
 <p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
 
+<h3 align="center">
+UM chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de azevedo de Mogi Mirim.
+Um Projeto realizado com todo o carrinho e amor, onde todos nós temos pela instituição, onde queremos ajudar a melhorá-la cada vez más.
+</h3>
+
 <p align="center">
 <img src = https://img.shields.io/badge/RASA-Chatbot-blueviolet>
 <img src = https://img.shields.io/badge/NLP-Machine%20learning-blue>
@@ -15,7 +20,7 @@
 # ***Descrição do chatbot***
 * O projeto do chatbot foi realizado pelos bolsistas dentro da compasso UOl em parceiria com a Fatec, para realização de consulta de vestibular e secretaria
 
-# ***Principal Objetivo***
+# ***Principais Objetivos***
 * Ajudar no atentimento da fatec atráves do chatbot.
 * Direcionar o usário/aluno com perguntas e respostas.
 * Solucionar duvidas.
@@ -29,8 +34,10 @@
 * Github
 * vscode
 * Rasa
-* SpacyNLP
+* Spacy/PT-BR
+* NLP
 * HTML/CSS
+* inteligência artificial
 
 # ***Contribuidores***
 * [Compasso UOL](https://www.linkedin.com/company/compasso-uol/mycompany/)
