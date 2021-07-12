@@ -160,7 +160,7 @@ responses:
 
   utter_faq/ask_projeto_pedagogico:
   - text: |-
-       •	Projeto dos curso são:
+       •	Projeto pedagógico dos curso são:
 
        •	Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ-PEDAG-PROJETOS.pdf) 
 
@@ -241,7 +241,7 @@ responses:
 
 
   utter_faq/ask_senha_institucional:
-  - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para douglas.pereira@fatec.sp.gov.br, contendo nome completo e RA
+  - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para **douglas.pereira@fatec.sp.gov.br**, contendo nome completo e RA.
 
 
   utter_faq/ask_trancamento:
@@ -315,14 +315,14 @@ responses:
 
 
   utter_faq/ask_matricula:
-  - text: |-
-      Para solicitar sobre:
-      Atestado de Matrícula;
-      Declaração de Matrícula;
-      Comprovante de Matrícula ou
-      Histórico escolar.
+  - text: "
+      Para solicitar sobre:\n
+      Atestado de Matrícula;\n
+      Declaração de Matrícula;\n
+      Comprovante de Matrícula;\n
+      Histórico escolar;\n
       Acesse o SIGA na área **SOLICITAÇÃO DE DOCUMENTOS** 
-      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)"
 
 
   utter_faq/ask_rematricula:
@@ -546,11 +546,15 @@ responses:
   - text: |-
       Responsável pela administração do ensino básico e profissional dos currículos de graduação.
 
-      Organiza o trabalho do docente, programas e planos de ensino, aprova a distribuição de aulas e horário de trabalho dos auxiliares. Administra os núcleos, laboratórios, oficinas e outros órgãos didáticos. 
+      Organiza o trabalho do docente, programas e planos de ensino, aprova a distribuição de aulas e horário de trabalho dos auxiliares. Administra os núcleos, laboratórios, oficinas e outros órgãos didáticos.
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional)
 
   utter_faq/ask_direcao:
   - text: |-
-      Órgão executivo, encarregado de dirigir e coordenar as atividades da Faculdade. 
+      Órgão executivo, encarregado de dirigir e coordenar as atividades da Faculdade.
+
+      Para mais informações, [clique aqui](https://fatecmm.edu.br/index.php/estrutura-organizacional) 
     
 
   utter_faq/ask_reposta_nova:

@@ -203,8 +203,8 @@ nlu:
 - intent: faq/ask_projeto_pedagogico
   examples: |
     - [projeto pedagogico](projeto_pedagogico_entity)
-    - [projeto pedagógico](projeto_pedagogico_entity)
-    - qual é os [projetos pedagógico](projeto_pedagogico_entity) dos cursos?
+    - [projeto dos cursos](projeto_pedagogico_entity)
+    - qual é os [projetos pedagógicz'o](projeto_pedagogico_entity) dos cursos?
     - tem [projetos pedagógico](projeto_pedagogico_entity)?
     - [projeto pedagogico](projeto_pedagogico_entity) de Análise de Desenvolvimento de Sistemas(mec_ads_entity)
     - [projeto pedagogico](projeto_pedagogico_entity) de ADS(mec_ads_entity)
@@ -383,6 +383,10 @@ nlu:
     - [quando posso pedir o diploma](pedir_diploma_entity)?
     - [prazo para pedir diploma](pedir_diploma_entity)?
     - [emissão de diploma](pedir_diploma_entity)?
+    - [quero meu diploma](pedir_diploma_entity)
+    - [necessito do meu diploma](pedir_diploma_entity)
+    - [preciso do diploma](pedir_diploma_entity)
+    - [desejo o diploma](pedir_diploma_entity)
 
 
 - intent: faq/ask_aproveitamento_estudos
@@ -442,6 +446,10 @@ nlu:
   examples: |
     - como [faço a rematrícula](rematricula_entity)?
     - quando é a [rematricula](rematricula_entity)
+    - quando é o [período rematricula](rematricula_entity)
+    - quando é o [periodo de rematricula](rematricula_entity)
+    - quando é a [etapa de rematricula](rematricula_entity)
+    - quando é o [decorrer da rematricula](rematricula_entity)
     - qual a [data de rematricula](rematricula_entity)?
     - preciso [realizar a rematrícula](rematricula_entity).
     - onde tenho que fazer [minha rematrícula](rematricula_entity)?
@@ -450,6 +458,8 @@ nlu:
 - intent: faq/ask_criterios_aprovacao
   examples: |
     - Quais os [Critérios de aprovação](criterios_aprovacao_entity)?
+    - Quais são os [parâmetros de aprovação](criterios_aprovacao_entity)?
+    - Quais são os [fatores de aprovação](criterios_aprovacao_entity)?
     - preciso saber [os criterios de aprovacao](criterios_aprovacao_entity).
     - me passa quais são os [criterios para aprovar na prova](criterios_aprovacao_entity).
     - [criterios de aprovacao](criterios_aprovacao_entity)?
@@ -637,6 +647,12 @@ nlu:
     - queria [informações sobre cancelamento](informacoes_cancelamento_entity)
     - pode me [informar sobre cancelar](informacoes_cancelamento_entity)?
     - como [cancelo matricula](informacoes_cancelamento_entity)?
+    - como faço [cancelamento de matricula](informacoes_cancelamento_entity)?
+    - como faço para [cancelar matricula](informacoes_cancelamento_entity)? 
+    - como faço para [anular matricula](informacoes_cancelamento_entity)?  
+    - como faço [anulamento de matricula](informacoes_cancelamento_entity)?
+    - como faço para [encerrar matricula](informacoes_cancelamento_entity)? 
+    - como faço [encerramento de matricula](informacoes_cancelamento_entity)?  
     - onde posso obter [informações para cancelar matrícula](informacoes_cancelamento_entity)
 
 
