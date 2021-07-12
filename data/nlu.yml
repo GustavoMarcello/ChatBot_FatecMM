@@ -1017,6 +1017,11 @@ nlu:
     - quando as inscriçoes para o vestibular [abrem](inscricao_vestibular_entity)
     - as inscriçoes para o vestibular [abrir](inscricao_vestibular_entity) quando
     - [quando vai ser](inscricao_vestibular_entity) a prova do vestibular
+    - como [faço a inscrição](inscricao_vestibular_entity) para o vestibular
+    - quero saber como eu [faço a inscricão](inscricao_vestibular_entity)
+    - como [faço a inscricao](inscricao_vestibular_entity)
+    - gostaria de saber como [faco a inscrição](inscricao_vestibular_entity)
+    - quero saber como eu [faco a inscricão](inscricao_vestibular_entity)
 
 
 - intent: faq/ask_upload
