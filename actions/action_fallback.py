@@ -43,7 +43,7 @@ class ActionDefaultFallback(Action):
                 "Poxa...",
                 "Poxa vida...",
                 "Foi mal...",
-                "Caramba..."
+                "Desculpa..."
             ]
         )
 
@@ -57,11 +57,11 @@ class ActionDefaultFallback(Action):
             segundos = time.strftime('%S', time.localtime())
             
             if horas < '12' and minutos <='59' and segundos <='59':
-                dispatcher.utter_message('Bom dia, Bem vindo a secretaria digital FATEC Mogi Mirim')
+                dispatcher.utter_message('Bom dia, Bem vindo à secretaria digital FATEC Mogi Mirim')
             elif horas < '18' and minutos <='59' and segundos <='59':
-                dispatcher.utter_message('Boa tarde, Bem vindo a secretaria digital FATEC Mogi Mirim')
+                dispatcher.utter_message('Boa tarde, Bem vindo à secretaria digital FATEC Mogi Mirim')
             elif horas < '24' and minutos <='59' and segundos <='59':
-                dispatcher.utter_message('Boa noite, Bem vindo a secretaria digital FATEC Mogi Mirim')
+                dispatcher.utter_message('Boa noite, Bem vindo à secretaria digital FATEC Mogi Mirim')
                 
             dispatcher.utter_message(
                 choice(
