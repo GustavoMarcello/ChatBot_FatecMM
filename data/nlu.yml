@@ -416,6 +416,14 @@ nlu:
     - quero o pedir o [aproveitamento de matérias](aproveitamento_estudos_entity)
     - quero fazer [eliminação matérias](aproveitamento_estudos_entity)
     - quero saber como vejo o [aproveitamento de disciplinas](aproveitamento_estudos_entity)
+    - quero [aproveitar](aproveitamento_estudos_entity)
+    - posso [eliminar](aproveitamento_estudos_entity) disciplinas
+    - quero fazer o [aproveitamento](aproveitamento_estudos_entity)
+    - gostaria de [eliminar](aproveitamento_estudos_entity) disciplinas
+    - fazer o [aproveitamento](aproveitamento_estudos_entity) de matérias
+    - posso [aproveitar](aproveitamento_estudos_entity) matérias que ja cursei
+    - quero [aproveitar](aproveitamento_estudos_entity) matérias que ja cursei
+    - eu quero fazer o [aproveitamento](aproveitamento_estudos_entity) de disciplinas
 
 
 - intent: faq/ask_tecnologo_superior
@@ -889,22 +897,6 @@ nlu:
     
 ###################### CHAT VESTIBULAR ######################################
 
-- intent: faq/ask_aproveitamento_disciplinas        
-  examples: |
-    - quero [aproveitar](aproveitamento_entity)
-    - posso [eliminar](aproveitamento_entity) disciplinas
-    - quero fazer o [aproveitamento](aproveitamento_entity)
-    - gostaria de [eliminar](aproveitamento_entity) disciplinas
-    - fazer o [aproveitamento](aproveitamento_entity) de matérias
-    - posso [aproveitar](aproveitamento_entity) matérias que ja cursei
-    - quero [aproveitar](aproveitamento_entity) matérias que ja cursei
-    - eu quero fazer o [aproveitamento](aproveitamento_entity) de disciplinas
-    - não possuo [histórico escolar do ensino médio](aproveitamento_entity)
-    - não possuo [histórico escolar do ensino medio](aproveitamento_entity)
-    - não possuo [historico escolar do ensino médio](aproveitamento_entity)
-    - não possuo [historico escolar do ensino medio](aproveitamento_entity)
-
-
 - intent: faq/ask_matricula_sem_historico 
   examples: |
     - estou [sem o histórico](historico_entity) escolar
@@ -966,7 +958,8 @@ nlu:
     - cursava um curso na fatec e agora quero fazer o [vestibular novamente](vestibular_novamente_entity), tem como
     - eu cursava na fatec e agora eu quero saber se eu posso fazer o [vestibular novamente](vestibular_novamente_entity)
     - posso  [fazer vestibular de novo](vestibular_novamente_entity), mesmo ja tendo feito um curso na fatec sem terminar
-
+    - [ja fiz fatec](vestibular_novamente_entity) e quero fazer dnovo
+    - [ja fiz fatec](vestibular_novamente_entity) e quero fazer denovo
 
 - intent: faq/ask_outra_faculdade
   examples: |
