@@ -4,7 +4,7 @@
 <h1 align="center">ChatBot FATEC</h1>
 
 <h3 align="center">
-Um chatbot feito totalmente por bolsistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de Azevedo de Mogi Mirim.
+Um chatbot feito totalmente por bolsistas da COMPASSO UOL e alunos ingressantes na FATEC - Arthur de Azevedo de Mogi Mirim.
 
 </h3>
 
