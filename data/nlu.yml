@@ -1072,7 +1072,8 @@ nlu:
     - sou do [uruguai](candidato_estrangeiro_entity), posso me matricular
     - sou [africano](candidato_estrangeiro_entity), posso estudar na fatec
     - sou de um país da [africa](candidato_estrangeiro_entity), posso me matricular
-
+    - vim de [outro país](candidato_estrangeiro_entity) e quero fazer a matricula
+    - sou de [outro lugar](candidato_estrangeiro_entity)
     
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
@@ -1083,7 +1084,9 @@ nlu:
     - como faco o pagamento da [tarifa](taxa_inscricao_entity) de inscricao
     - como farei o pagamento da [taxa inscrição](taxa_inscricao_entity)
     - eu quero fazer o pagamento da [taxa de inscricao](taxa_inscricao_entity)
-
+    - como faço para [pagar o vestibular](taxa_inscricao_entity)
+    - como [pago o vestibular](taxa_inscricao_entity)
+    - [pagamento do vestibular](taxa_inscricao_entity)
 
 - intent: faq/ask_vestibular
   examples: |
