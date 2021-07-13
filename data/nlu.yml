@@ -897,23 +897,8 @@ nlu:
 
 ###################### CHAT VESTIBULAR ######################################
 
-<<<<<<< HEAD
-- intent: faq/ask_aproveitamento_disciplinas
-  examples: |
-    - quero [aproveitar](aproveitamento_entity)
-    - posso [eliminar](aproveitamento_entity) disciplinas
-    - quero fazer o [aproveitamento](aproveitamento_entity)
-    - gostaria de [eliminar](aproveitamento_entity) disciplinas
-    - fazer o [aproveitamento](aproveitamento_entity) de matérias
-    - posso [aproveitar](aproveitamento_entity) matérias que ja cursei
-    - quero [aproveitar](aproveitamento_entity) matérias que ja cursei
-    - eu quero fazer o [aproveitamento](aproveitamento_entity) de disciplinas
 
-
-- intent: faq/ask_matricula_sem_historico
-=======
 - intent: faq/ask_matricula_sem_historico 
->>>>>>> 980b943f55d9605fb5d3ae7da8921791a6248616
   examples: |
     - estou [sem o histórico](historico_entity) escolar
     - [nao tem historico] escolar, da pra fazer matricula
@@ -1015,6 +1000,8 @@ nlu:
     - as [aulas são pelo computador](aulas_remotas_entity)
     - [aulas corona virus](aulas_remotas_entity) como serao
     - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
+    - vai ter [aula presencial](aulas_remotas_entity)
+    - [pandemia](aulas_remotas_entity)
 
 
 - intent: faq/ask_idade_minima
@@ -1086,8 +1073,9 @@ nlu:
     - sou do [uruguai](candidato_estrangeiro_entity), posso me matricular
     - sou [africano](candidato_estrangeiro_entity), posso estudar na fatec
     - sou de um país da [africa](candidato_estrangeiro_entity), posso me matricular
-
-
+    - vim de [outro país](candidato_estrangeiro_entity) e quero fazer a matricula
+    - sou de [outro lugar](candidato_estrangeiro_entity)
+    
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
     - como faço para [pagar taxa](taxa_inscricao_entity) de inscrição
@@ -1097,7 +1085,9 @@ nlu:
     - como faco o pagamento da [tarifa](taxa_inscricao_entity) de inscricao
     - como farei o pagamento da [taxa inscrição](taxa_inscricao_entity)
     - eu quero fazer o pagamento da [taxa de inscricao](taxa_inscricao_entity)
-
+    - como faço para [pagar o vestibular](taxa_inscricao_entity)
+    - como [pago o vestibular](taxa_inscricao_entity)
+    - [pagamento do vestibular](taxa_inscricao_entity)
 
 - intent: faq/ask_vestibular
   examples: |
@@ -1258,3 +1248,5 @@ nlu:
     - estou sem o [cadastro de pessoa física](sobre_documentos_entity)
     - perdi meus [documentos](sobre_documentos_entity)
     - estou sem [documento](sobre_documentos_entity)
+    - [quais documentos preciso](sobre_documentos_entity) para fazer matricula
+    - [preciso do rg](sobre_documentos_entity)
