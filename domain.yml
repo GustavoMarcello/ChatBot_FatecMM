@@ -64,7 +64,6 @@ entities:
 - direcao_entity
 - historia_entity
 #################### entidades vestibular###########
-- aproveitamento_entity
 - historico_entity
 - escolaridade_entity
 - vestibular_novamente_entity
@@ -287,11 +286,9 @@ responses:
 
   utter_faq/ask_aproveitamento_estudos:
   - text: |-
-      Os alunos que ingressarem na FATEC poderão requerer equivalência de estudos, de disciplinas cursadas com aproveitamento em outras Instituições de Ensino Superior, com disciplinas oferecidas pela FATEC.
-
-      No ato da matrícula, o aluno deve requerer, junto à Secretaria Acadêmica, aproveitamento de estudos, apresentando Histórico Escolar contendo notas e carga horária das disciplinas cursadas e o conteúdo programático (carimbado e assinado pela IES) dessas disciplinas.
-
-      A Secretaria Acadêmica encaminhará a solicitação ao Coordenador do curso que, após análise pelos professores das disciplinas, apresentará a documentação à Direção para apreciação. 
+      Para eliminar matérias que já cursou anteriormente, você deverá fazer o upload da documentação refente à 
+      carga horária, ementa e programa das disciplinas cursadas, além do histórico escolar da instituição de 
+      ensino superior de origem.
 
       O prazo para requerer a equivalência de estudos está previsto no Manual do Candidato.
 
@@ -563,12 +560,6 @@ responses:
 
 
  ######### utters vestibular ##############
-  utter_faq/ask_aproveitamento_disciplinas:
-  - text: |-
-      Para eliminar matérias que já cursou anteriormente, você deverá fazer o upload da documentação refente à 
-      carga horária, ementa e programa das disciplinas cursadas, além do histórico escolar da instituição de 
-      ensino superior de origem.
-     
 
   utter_faq/ask_matricula_sem_historico:
   - text: |-
