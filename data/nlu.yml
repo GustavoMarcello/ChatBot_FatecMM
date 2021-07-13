@@ -999,6 +999,8 @@ nlu:
     - as [aulas são pelo computador](aulas_remotas_entity)
     - [aulas corona virus](aulas_remotas_entity) como serao
     - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
+    - vai ter [aula presencial](aulas_remotas_entity)
+    - [pandemia](aulas_remotas_entity)
 
 
 - intent: faq/ask_idade_minima 
@@ -1240,4 +1242,6 @@ nlu:
     - estou sem o [cadastro de pessoa física](sobre_documentos_entity)
     - perdi meus [documentos](sobre_documentos_entity)
     - estou sem [documento](sobre_documentos_entity)
+    - [quais documentos preciso](sobre_documentos_entity) para fazer matricula
+    - [preciso do rg](sobre_documentos_entity)
 
