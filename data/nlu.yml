@@ -669,11 +669,11 @@ nlu:
     - pode me [informar sobre cancelar](informacoes_cancelamento_entity)?
     - como [cancelo matricula](informacoes_cancelamento_entity)?
     - como faço [cancelamento de matricula](informacoes_cancelamento_entity)?
-    - como faço para [cancelar matricula](informacoes_cancelamento_entity)? 
-    - como faço para [anular matricula](informacoes_cancelamento_entity)?  
+    - como faço para [cancelar matricula](informacoes_cancelamento_entity)?
+    - como faço para [anular matricula](informacoes_cancelamento_entity)?
     - como faço [anulamento de matricula](informacoes_cancelamento_entity)?
-    - como faço para [encerrar matricula](informacoes_cancelamento_entity)? 
-    - como faço [encerramento de matricula](informacoes_cancelamento_entity)?  
+    - como faço para [encerrar matricula](informacoes_cancelamento_entity)?
+    - como faço [encerramento de matricula](informacoes_cancelamento_entity)?
     - onde posso obter [informações para cancelar matrícula](informacoes_cancelamento_entity)
 
 
@@ -686,7 +686,7 @@ nlu:
     - estou mudando para outra faculdade e [queria pedir tranfência](tranferir_fatec_entity)
     - [tranferir](tranferir_fatec_entity) de faculdade
     - [quero mudar de faculdade](tranferir_fatec_entity)
-    - estou mudando de cidade e quero [saber como transferir](tranferir_fatec_entity)	
+    - estou mudando de cidade e quero [saber como transferir](tranferir_fatec_entity)
     - é possível fazer a [troca de faculdade](tranferir_fatec_entity)?
 
 
@@ -781,7 +781,7 @@ nlu:
     - qual a [historia faculdade](historia_entity)
     - qual a [historia](historia_entity)
 
-  
+
 
 - intent: fallback_intent
   examples: |
@@ -831,7 +831,7 @@ nlu:
     - mula
     - burro
     - jogar
-    - chutar  
+    - chutar
     - foda-se
     - lindo
     - gostoso
@@ -844,58 +844,59 @@ nlu:
     - show
     - a
     - b
-    - c 
+    - c
     - d
     - e
     - f
     - g
     - h
-    - i 
-    - j 
-    - k 
-    - l 
+    - i
+    - j
+    - k
+    - l
     - m
     - o
     - p
     - q
-    - r 
-    - t 
-    - u 
-    - v 
-    - w 
-    - x 
+    - r
+    - t
+    - u
+    - v
+    - w
+    - x
     - y
     - z
     - ,
-    - + 
-    - - 
-    - *  
-    - ? 
-    - ; 
-    - . 
-    - = 
+    - +
+    - -
+    - *
+    - ?
+    - ;
+    - .
+    - =
     - \
     - /
     - *
-    - -    
+    - -
     - [
     - ]
-    - ( 
+    - (
     - )
     - {
     - }
     - ´
     - '
-    - " 
-    - ~ 
-    - Ç 
-    - ^ 
+    - "
+    - ~
+    - Ç
+    - ^
     - :
     - |
     - <
     - >
-    
+
 ###################### CHAT VESTIBULAR ######################################
+
 
 - intent: faq/ask_matricula_sem_historico 
   examples: |
@@ -978,7 +979,7 @@ nlu:
     - também estou cursando [outra faculdade](outra_faculdade_entity)
     - quero estudar em [outra instituicao](outra_faculdade_entity) alem dessa
 
-  
+
 - intent: faq/ask_aulas_remotas
   examples: |
     - [covid](aulas_remotas_entity)
@@ -999,9 +1000,11 @@ nlu:
     - as [aulas são pelo computador](aulas_remotas_entity)
     - [aulas corona virus](aulas_remotas_entity) como serao
     - a pandemia vai [influenciar as aulas](aulas_remotas_entity)
+    - vai ter [aula presencial](aulas_remotas_entity)
+    - [pandemia](aulas_remotas_entity)
 
 
-- intent: faq/ask_idade_minima 
+- intent: faq/ask_idade_minima
   examples: |
     - [idade](idade_minima_entity)
     - qual é a [idade minima](idade_minima_entity)
@@ -1016,7 +1019,7 @@ nlu:
     - preciso ter [quantos anos](idade_minima_entity) para fazer
     - [menores de idade](idade_minima_entity) podem se matricular
     - com [quantos anos posso entrar](idade_minima_entity) na fatec
-    - [quantos anos preciso](idade_minima_entity) ter para participar 
+    - [quantos anos preciso](idade_minima_entity) ter para participar
     - para ingressar na fatec preciso ser [maior de idade](idade_minima_entity)
     - posso ter menos de [18 anos](idade_minima_entity) para prestar o vestibular
 
@@ -1070,7 +1073,8 @@ nlu:
     - sou do [uruguai](candidato_estrangeiro_entity), posso me matricular
     - sou [africano](candidato_estrangeiro_entity), posso estudar na fatec
     - sou de um país da [africa](candidato_estrangeiro_entity), posso me matricular
-
+    - vim de [outro país](candidato_estrangeiro_entity) e quero fazer a matricula
+    - sou de [outro lugar](candidato_estrangeiro_entity)
     
 - intent: faq/ask_pagamento_taxa_inscricao
   examples: |
@@ -1081,7 +1085,9 @@ nlu:
     - como faco o pagamento da [tarifa](taxa_inscricao_entity) de inscricao
     - como farei o pagamento da [taxa inscrição](taxa_inscricao_entity)
     - eu quero fazer o pagamento da [taxa de inscricao](taxa_inscricao_entity)
-
+    - como faço para [pagar o vestibular](taxa_inscricao_entity)
+    - como [pago o vestibular](taxa_inscricao_entity)
+    - [pagamento do vestibular](taxa_inscricao_entity)
 
 - intent: faq/ask_vestibular
   examples: |
@@ -1091,7 +1097,7 @@ nlu:
     - como [funciona o vestibular](vestibular_entity)
     - [sobre vestibular](vestibular_entity)
     - [sobre o vestibular](vestibular_entity)
-    - [vestibular como funciona](vestibular_entity) 
+    - [vestibular como funciona](vestibular_entity)
     - como [funciona o vestibular](vestibular_entity)
     - sobre [o que e o vestibular](vestibular_entity)
     - me diga [sobre o vestibular](vestibular_entity)
@@ -1103,7 +1109,7 @@ nlu:
     - como faço a [inscrição](inscricao_vestibular_entity) do vestibular
     - quero me [inscrever](inscricao_vestibular_entity) para a prova
     - preenchimento de ficha de [inscricao](inscricao_vestibular_entity)
-    - como faço a [inscricao](inscricao_vestibular_entity) para o vestibular   
+    - como faço a [inscricao](inscricao_vestibular_entity) para o vestibular
     - [quando começa](inscricao_vestibular_entity) inscriçao vestibular
     - [começam](inscricao_vestibular_entity) inscriçoes para vestibular
     - as incriçoes vestibular [inicia](inscricao_vestibular_entity) quando
@@ -1141,7 +1147,9 @@ nlu:
     - taxa de inscriçao [paga](pagamento_efetivado_entity)
     - [efetuei pagamento](pagamento_efetivado_entity) da taxa de inscriçao
     - taxa de inscriçao foi [efetivado](pagamento_efetivado_entity)
-    
+    - Como sei quando o pagamento da taxa de inscrição foi [efetivado](pagamento_efetivado_entity)
+    - taxa de inscrição foi [efetivada](pagamento_efetivado_entity)
+
 
 - intent: faq/ask_segunda_via_boleto
   examples: |
@@ -1152,7 +1160,7 @@ nlu:
     - segunda [via boleto](segunda_via_boleto_entity)
     - [boleto bancario](segunda_via_boleto_entity)
     - imprimir [boleto](segunda_via_boleto_entity)
-  
+
 
 - intent: faq/ask_segunda_chamada
   examples: |
@@ -1182,7 +1190,7 @@ nlu:
 
 
 - intent: faq/ask_prova
-  examples: | 
+  examples: |
     - vai ter [prova](prova_entity)
     - [prova remota](prova_entity)
     - [prova presencial](prova_entity)
@@ -1207,7 +1215,7 @@ nlu:
     - me passa o [face](redes_sociais_entity)
     - me passa o [insta](redes_sociais_entity)
 
-    
+
 - intent: faq/ask_sobre_o_curso
   examples: |
     - posso [fazer dois](sobre_o_curso_entity) cursos
@@ -1220,8 +1228,8 @@ nlu:
     - posso fazer uma [mudança](sobre_o_curso_entity) de curso
     - posso [muda](sobre_o_curso_entity) o curso
     - tem problema em [alterar](sobre_o_curso_entity) o curso
-    - consigo [substituir](sobre_o_curso_entity) o curso 
-    - faço mecatronica, [posso fazer](sobre_o_curso_entity) ads tambem 
+    - consigo [substituir](sobre_o_curso_entity) o curso
+    - faço mecatronica, [posso fazer](sobre_o_curso_entity) ads tambem
     - [posso fazer outro curso](sobre_o_curso_entity) durante a noite na fatec
 
 - intent: faq/ask_sobre_documentos
@@ -1240,4 +1248,5 @@ nlu:
     - estou sem o [cadastro de pessoa física](sobre_documentos_entity)
     - perdi meus [documentos](sobre_documentos_entity)
     - estou sem [documento](sobre_documentos_entity)
-
+    - [quais documentos preciso](sobre_documentos_entity) para fazer matricula
+    - [preciso do rg](sobre_documentos_entity)
