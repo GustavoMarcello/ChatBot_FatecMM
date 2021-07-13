@@ -899,6 +899,10 @@ nlu:
     - posso [aproveitar](aproveitamento_entity) matérias que ja cursei
     - quero [aproveitar](aproveitamento_entity) matérias que ja cursei
     - eu quero fazer o [aproveitamento](aproveitamento_entity) de disciplinas
+    - não possuo [histórico escolar do ensino médio](aproveitamento_entity)
+    - não possuo [histórico escolar do ensino medio](aproveitamento_entity)
+    - não possuo [historico escolar do ensino médio](aproveitamento_entity)
+    - não possuo [historico escolar do ensino medio](aproveitamento_entity)
 
 
 - intent: faq/ask_matricula_sem_historico 
