@@ -599,14 +599,21 @@
               language: "pt"
             },
             initPayload: "/start",
-            socketUrl: "http://localhost:5005/",
-            //socketUrl: "http://1973a6eaa10a.ngrok.io",
+            //socketUrl: "http://localhost:5005/",
+            socketUrl: "http://b7306d1e116b.ngrok.io",
             socketPath: "/socket.io/",
             customData: {
               useId: "123"
             },
-            title: "Fatec",
-            subtitle: "secretaria",
+            customMessageDelay: (message) => {
+              let delay = message.length * 5;
+              if (delay > 3 * 1000) delay = 3 * 1000;
+              if (delay < 800) delay = 800;
+              return delay;
+            },
+            title: "Fatec - Mogi Mirim",
+            subtitle: "",
+            subtitle: "Centro Paula Souza",
             welcomeMessage: "oi",
             inputTextFieldHint: "Digite uma mensagem...",
             showFullScreenButton: true,
@@ -676,6 +683,19 @@
 
     .cover.black {
       background-color: rgba(0, 0, 0, .6);
+    }
+
+    .rw-conversation-container .rw-header.rw-with-subtitle .rw-title {
+    top: 5px;
+    }
+
+    .rw-conversation-container .rw-title {
+    font-size: 20px;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    position: absolute;
+    left: 22px;
+    font-weight: 700;
     }
 
     .logo-container .logo {

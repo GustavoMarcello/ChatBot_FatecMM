@@ -12,8 +12,6 @@ intents:
 - help_intent
 - start
 
-
-
 entities:
 - negandopergunta_entity
 - horario_secretaria_entity
@@ -243,13 +241,7 @@ responses:
 
   utter_faq/ask_senha_institucional:
 
-  - text: Para recuperar a senha do e-mail instituicional, encaminhar e-mail para 
-          
-          douglas.pereira@fatec.sp.gov.br, 
-          
-          contendo nome completo e RA
-
-
+  - text: "Para recuperar a senha do e-mail instituicional, encaminhar e-mail para \ndouglas.pereira@fatec.sp.gov.br\ncontendo nome completo e RA"
 
   utter_faq/ask_trancamento:
   - text: |-
@@ -322,14 +314,7 @@ responses:
 
 
   utter_faq/ask_matricula:
-  - text: "
-      Para solicitar sobre:\n
-      Atestado de Matrícula;\n
-      Declaração de Matrícula;\n
-      Comprovante de Matrícula;\n
-      Histórico escolar;\n
-      Acesse o SIGA na área **SOLICITAÇÃO DE DOCUMENTOS** 
-      [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)"
+  - text: "Para solicitar sobre:\nAtestado de Matrícula;\nDeclaração de Matrícula;\nComprovante de Matrícula;\nHistórico escolar;\nAcesse o SIGA na área **SOLICITAÇÃO DE DOCUMENTOS** [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)"
 
 
   utter_faq/ask_rematricula:
