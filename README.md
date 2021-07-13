@@ -37,7 +37,7 @@ Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na
 * Ajudar em um rápido atendimento.
 * Diminuir o tempo de espera no atendimento. 
 
-# 🗃 ***Pré-requisitos***
+# 🖱 ***Pré-requisitos***
 - Python versão 3.8.
 - RASA.
 - SpaCy;
