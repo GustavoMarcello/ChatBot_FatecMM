@@ -960,6 +960,8 @@ nlu:
     - posso  [fazer vestibular de novo](vestibular_novamente_entity), mesmo ja tendo feito um curso na fatec sem terminar
     - [ja fiz fatec](vestibular_novamente_entity) e quero fazer dnovo
     - [ja fiz fatec](vestibular_novamente_entity) e quero fazer denovo
+    - fazer [fatec dnovo](vestibular_novamente_entity)
+    - quero fazer [fatec denovo](vestibular_novamente_entity)
 
 - intent: faq/ask_outra_faculdade
   examples: |
