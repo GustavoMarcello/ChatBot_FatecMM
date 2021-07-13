@@ -962,6 +962,7 @@ nlu:
     - [ja fiz fatec](vestibular_novamente_entity) e quero fazer denovo
     - fazer [fatec dnovo](vestibular_novamente_entity)
     - quero fazer [fatec denovo](vestibular_novamente_entity)
+    - quero fazer o [vestibular dnovo](vestibular_novamente_entity)
 
 - intent: faq/ask_outra_faculdade
   examples: |
