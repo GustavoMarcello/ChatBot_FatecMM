@@ -23,7 +23,7 @@ Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na
 </h4>
 
 # 📁 ***Documentação***
-- Documento na [última versão](https://github.com/GustavoMarcello/ChatBot_FatecMM/blob/main/Documentação%20Chatbot%20FATEC.pdf).
+- Documento na [última versão](https://github.com/GustavoMarcello/ChatBot_FatecMM/blob/main/Documentação%20Chatbot%20FATEC.pdf)
 
 # 🗃 ***Descrição do chatbot***
 
