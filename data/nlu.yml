@@ -40,6 +40,8 @@ nlu:
     - [Tudo beleza?](saudacao_entity)
     - [Tudo tranquilo?](saudacao_entity)
     - [Tudo sussa?](saudacao_entity)
+    - [hello](saudacao_entity)
+    - [hi](saudacao_entity)
 
 - intent: tchau_intent
   examples: |
@@ -72,6 +74,7 @@ nlu:
     - [xxaau](tchau_entity) até depois
     - [bye](tchau_entity)
     - [desligar](tchau_entity)
+    - [obg](tchau_entity)
 
 
 - intent: bot_intent
@@ -424,6 +427,10 @@ nlu:
     - posso [aproveitar](aproveitamento_estudos_entity) matérias que ja cursei
     - quero [aproveitar](aproveitamento_estudos_entity) matérias que ja cursei
     - eu quero fazer o [aproveitamento](aproveitamento_estudos_entity) de disciplinas
+    - tem como [eliminar materias](aproveitamento_estudos_entity) do curso
+    - posso [utilizar as notas](aproveitamento_estudos_entity) de algumas materias
+    - eu fazer [equivalencia de materias](aproveitamento_estudos_entity)
+    - quero [eliminar materias](aproveitamento_estudos_entity) do curso, posso
 
 
 - intent: faq/ask_tecnologo_superior
@@ -912,6 +919,7 @@ nlu:
     - [perdi meu histórico](historico_entity) escolar, posso fazer matrícula
     - estou sem o [histórico para matricula](historico_entity)
     - posso me [matricular sem histórico escolar](historico_entity)
+    - [não possuo histórico](historico_entity) escolar do ensino médio
 
 
 - intent: faq/ask_escolaridade_publica
