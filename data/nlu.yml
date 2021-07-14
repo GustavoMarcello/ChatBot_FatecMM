@@ -20,7 +20,7 @@ nlu:
     - [Ola](saudacao_entity)
     - [opa](saudacao_entity)!
     - [opa](saudacao_entity)
-    - [blz?](saudacao_entity)
+    - [blz](saudacao_entity)?
     - [fala](saudacao_entity)
     - [olaa](saudacao_entity)
     - [oii](saudacao_entity)
@@ -34,12 +34,12 @@ nlu:
     - [como você está](saudacao_entity)
     - ola, [beleza](saudacao_entity)
     - beleza [mano](saudacao_entity)
-    - [Tudo bem?](saudacao_entity)
-    - [Tudo bom?](saudacao_entity)
-    - [Tudo certo?](saudacao_entity)
-    - [Tudo beleza?](saudacao_entity)
-    - [Tudo tranquilo?](saudacao_entity)
-    - [Tudo sussa?](saudacao_entity)
+    - [Tudo bem](saudacao_entity)?
+    - [Tudo bom](saudacao_entity)?
+    - [Tudo certo](saudacao_entity)?
+    - [Tudo beleza](saudacao_entity)?
+    - [Tudo tranquilo](saudacao_entity)?
+    - [Tudo sussa](saudacao_entity)?
     - [hello](saudacao_entity)
     - [hi](saudacao_entity)
 
@@ -60,7 +60,7 @@ nlu:
     - [vou sair](tchau_entity)
     - [não ligo](tchau_entity)
     - [vou embora](tchau_entity)
-    - [valeu falou](tchau_entity)
+    - [falou](tchau_entity)
     - [cansei de vc](tchau_entity)
     - [até a próxima](tchau_entity)
     - [até mais tarde](tchau_entity)
@@ -110,13 +110,13 @@ nlu:
     - [vlw](obrigado_entity) pelo atendimento
     - [agradecido](obrigado_entity)
     - [obrigado](obrigado_entity) pela [ajuda](help_entity)
-    - ajudou muito- [valeu](obrigado_entity)
+    - ajudou muito [valeu](obrigado_entity)
     - [valeu](obrigado_entity) pela [ajuda](help_entity)
     - [agradecido](obrigado_entity) pelo atendimento
-    - [obrigado](obrigado_entity) pelo atendimento- ajudou muito
+    - [obrigado](obrigado_entity) pelo atendimento ajudou muito
     - [Obrigado](obrigado_entity)
     - muito [obrigado](obrigado_entity)
-    - Ajudou demais- [valeu](obrigado_entity)
+    - Ajudou demais [valeu](obrigado_entity)
     - [obrigada](obrigado_entity)
     - muito [obrigada](obrigado_entity)
     - [obrigada](obrigado_entity)!
@@ -257,7 +257,7 @@ nlu:
     - como funiona o [TCC](tcc_tgg_entity)?
     - como funciona o [TGG](tcc_tgg_entity)?
     - [o que é TCC](tcc_tgg_entity)?
-    - [o que é TGG?](tcc_tgg_entity)
+    - [o que é TGG](tcc_tgg_entity)?
     - o que é [trabalho de graduação](tcc_tgg_entity)?
     - [trabalho de Graduacao](tcc_tgg_entity)
     - [tcc](tcc_tgg_entity)
@@ -377,7 +377,7 @@ nlu:
 
 - intent: faq/ask_colacao_formatura
   examples: |
-    - [coloção de grau]?(colacao_formatura_entity)
+    - [coloção de grau](colacao_formatura_entity)?
     - quando [será a colação](colacao_formatura_entity)?
     - vai ter [colação de grau](colacao_formatura_entity)?
     - [tecnólogo tem colação de grau](colacao_formatura_entity)?
@@ -412,9 +412,9 @@ nlu:
     - tenho que ir a onde para [pedir o aproveitamento](aproveitamento_estudos_entity)?
     - me pediram para [buscar o aproveitamento de estudos](aproveitamento_estudos_entity).
     - teria como me [passar o aproveitamento de estudos](aproveitamento_estudos_entity) por favor?
-    - estou vindo de outra faculdade- posso [aproveitar matérias](aproveitamento_estudos_entity)
+    - estou vindo de outra faculdade posso [aproveitar matérias](aproveitamento_estudos_entity)
     - posso [aproveitar matéria](aproveitamento_estudos_entity) de outra faculdade
-    - já tenho curso superior- posso [aproveitar disciplinas](aproveitamento_estudos_entity)?
+    - já tenho curso superior posso [aproveitar disciplinas](aproveitamento_estudos_entity)?
     - onde peço [aproveitamento de matérias](aproveitamento_estudos_entity)
     - quero o pedir o [aproveitamento de matérias](aproveitamento_estudos_entity)
     - quero fazer [eliminação matérias](aproveitamento_estudos_entity)
@@ -651,7 +651,7 @@ nlu:
     - quero fazer [troca de turno](troca_turno_entity)
     - onde [faço a troca de turno](troca_turno_entity)
     - como [peço a troca de turno](troca_turno_entity)?
-    - estou no turno da manhã- [queria fazer a troca para o de noite](troca_turno_entity)
+    - estou no turno da manhã [queria fazer a troca para o de noite](troca_turno_entity)
     - onde [troco de turno](troca_turno_entity)
     - é [possível fazer troca de turno](troca_turno_entity)?
     - [posso trocar de turno](troca_turno_entity)?
@@ -688,7 +688,7 @@ nlu:
   examples: |
     - queria pedir a [tranfência](tranferir_fatec_entity) para uma outra
     - como [faço tranfência](tranferir_fatec_entity)?
-    - estou indo para outra faculdade- como [peço tranfência](tranferir_fatec_entity)?
+    - estou indo para outra faculdade como [peço tranfência](tranferir_fatec_entity)?
     - quero [fazer a tranfência](tranferir_fatec_entity)
     - estou mudando para outra faculdade e [queria pedir tranfência](tranferir_fatec_entity)
     - [tranferir](tranferir_fatec_entity) de faculdade
@@ -1191,7 +1191,7 @@ nlu:
     - gostaria de saber sobre as principais [datas](etapas_processo_seletivo_entity) e etapas
     - [calendario](etapas_processo_seletivo_entity) da fatec
     - [cronograma](etapas_processo_seletivo_entity) da fatec
-    - qual é o [calendario](etapas_processo_seletivo_entity)
+    - qual é o [calendario](etapas_processo_seletivo_entity)?
     - qual é o [calendário](etapas_processo_seletivo_entity) do processo seletivo
     - quais as principais [datas](etapas_processo_seletivo_entity)
     - qual a [data](etapas_processo_seletivo_entity)
