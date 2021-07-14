@@ -636,7 +636,7 @@ responses:
   - text: |-
       O pagamento da taxa poderá ser realizado em dinheiro, na agência bancária de sua preferência, mediante a apresentação do boleto 
       ou ainda, via internet, através do banco do candidato ou ainda através da ferramenta getnet 
-      disponível no site do [vestibular](https://www.vestibularfatec.com.br).
+      disponível no site do vestibular, para isso, [clique aqui](https://www.vestibularfatec.com.br).
 
 
   utter_faq/ask_vestibular:
@@ -664,7 +664,7 @@ responses:
 
   utter_faq/ask_segunda_via_boleto:
   - text: |-
-      Acesse o site do [vestibular](https://www.vestibularfatec.com.br) e clique na seção “Área do Candidato”. Em seguida, 
+      Para ter acesso, [clique aqui](https://www.vestibularfatec.com.br) para acessar o site do vestibular e clique na seção “Área do Candidato”. Em seguida, 
       clique no link “2ª via do boleto bancário”.
 
 
