@@ -591,7 +591,7 @@
       let e = document.createElement("script"),
         t = document.head || document.getElementsByTagName("head")[0];
       (e.src =
-        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+        "http://fatecbot.ddns.net/index.js"),
         (e.async = !0),
         (e.onload = () => {
           window.WebChat.default({
@@ -600,7 +600,7 @@
             },
             initPayload: "/start",
             //socketUrl: "http://localhost:5005/",
-            socketUrl: "http://b7306d1e116b.ngrok.io",
+            socketUrl: "http://ba9324837f13.ngrok.io",
             socketPath: "/socket.io/",
             customData: {
               useId: "123"
@@ -621,7 +621,15 @@
             displayUnreadCount: true,
             params: {
               "storage": "local",
-            }
+            },
+            params: {
+              images: {
+                dims: {
+                  width: 300,
+                  height: 200,
+                }
+              }
+            },
           },
             null
           );
@@ -686,16 +694,16 @@
     }
 
     .rw-conversation-container .rw-header.rw-with-subtitle .rw-title {
-    top: 5px;
+      top: 5px;
     }
 
     .rw-conversation-container .rw-title {
-    font-size: 20px;
-    margin: 0;
-    font-family: Inter,sans-serif;
-    position: absolute;
-    left: 22px;
-    font-weight: 700;
+      font-size: 20px;
+      margin: 0;
+      font-family: Inter, sans-serif;
+      position: absolute;
+      left: 22px;
+      font-weight: 700;
     }
 
     .logo-container .logo {
@@ -791,30 +799,51 @@
       overflow-wrap: break-word;
     }
 
-    .rw-launcher {
-      -webkit-animation-delay: 0;
-      -webkit-animation-duration: .5s;
-      -webkit-animation-name: slide-in;
-      -webkit-animation-fill-mode: forwards;
-      -moz-animation-delay: 0;
-      -moz-animation-duration: .5s;
-      -moz-animation-name: slide-in;
-      -moz-animation-fill-mode: forwards;
-      animation-delay: 0;
-      animation-duration: .5s;
-      animation-name: slide-in;
-      animation-fill-mode: forwards;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #a92929;
-      border: 0;
-      border-radius: 50%;
-      box-shadow: 0 2px 10px 1px #b5b5b5;
-      height: 60px;
-      margin: 0;
-      width: 60px;
-      box-sizing: border-box;
+.rw-launcher {
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-name: slide-in;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 0;
+    -moz-animation-duration: .5s;
+    -moz-animation-name: slide-in;
+    -moz-animation-fill-mode: forwards;
+    animation-delay: 0;
+    animation-duration: .5s;
+    animation-name: slide-in;
+    animation-fill-mode: forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a9292900;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 0px 20px 5px #ffffff00;
+    height: 60px;
+    margin: 5px;
+    width: 130px;
+    box-sizing: border-box;
+    animation: go-back 0.5s infinite alternate;
+    -moz-animation-iteration-count: 20;
+    -webkit-animation-iteration-count: 20;
+    animation-iteration-count: 20;
+    
+}
+
+.rw-close-launcher.rw-default {
+    width: 30px!important;
+    border-radius: 50%;
+    box-shadow: 0 0px 15px 2px #000;
+    background-color:#A92929;
+    padding: 2px;
+}
+@keyframes go-back {
+      from {
+      transform: translateY(5px);
+      }
+      to {
+        transform: translateY(0);
+      }
     }
 
     .rw-conversation-container .rw-send .rw-send-icon-ready {

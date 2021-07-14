@@ -1,10 +1,10 @@
 # ***Projeto Chatbot Rasa***
-<p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
+<p align="center"><img src = "https://github.com/GustavoMarcello/ChatBot_FatecMM/blob/main/logofatec/logo.png" width="500"></p>
 
 <h1 align="center">ChatBot FATEC</h1>
 
 <h3 align="center">
-Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na FATEC - Arthur de Azevedo de Mogi Mirim.
+Um chatbot feito totalmente por bolsistas da COMPASSO UOL e alunos ingressantes na FATEC - Arthur de Azevedo de Mogi Mirim.
 
 </h3>
 
@@ -23,7 +23,7 @@ Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na
 </h4>
 
 # 📁 ***Documentação***
-- Documento na [última versão](https://google.com.br).
+- Documento na [última versão](https://github.com/GustavoMarcello/ChatBot_FatecMM/blob/main/Documentação%20Chatbot%20FATEC.pdf).
 
 # 🗃 ***Descrição do chatbot***
 
@@ -59,8 +59,8 @@ Um chatbot feito totalmento por bosistas da COMPASSO UOL e alunos ingresantes na
 
 # 📧 ***FAQ's***
 
-* Se tiver algum ponto de melhoria, mandar alguma sugestão para os desenvolvedores.
-* Se não foi resolvido a sua duvida ou se teve algun problema, Entrar em contato com um de nossos desenvolvedores.
+* Se tiver algum ponto de melhoria, envie a sugestão para os desenvolvedores.
+* Para qualquer outra dúvida ou preocupação, entre em contato.
 
 # 👩‍💻👨‍💻 ***Desenvolvedores***
 
