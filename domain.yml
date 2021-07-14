@@ -240,7 +240,12 @@ responses:
 
   utter_faq/ask_senha_institucional:
 
-  - text: "Para recuperar a senha do e-mail instituicional, encaminhar e-mail para \ndouglas.pereira@fatec.sp.gov.br\ncontendo nome completo e RA"
+  - text:  |-
+        Para recuperar a senha do e-mail instituicional, encaminhar e-mail para
+
+        **douglas.pereira@fatec.sp.gov.br**
+        
+        contendo nome completo e RA
 
   utter_faq/ask_trancamento:
   - text: |-
