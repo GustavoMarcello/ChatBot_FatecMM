@@ -1,5 +1,5 @@
 # ***Projeto Chatbot Rasa***
-<p align="center"><img src = "https://user-images.githubusercontent.com/26391241/125329604-140e4100-e31c-11eb-9c89-efd2942328c6.jpg"></p>
+<p align="center"><img src = "https://github.com/GustavoMarcello/ChatBot_FatecMM/blob/main/logofatec/logo.png" width="500"></p>
 
 <h1 align="center">ChatBot FATEC</h1>
 
