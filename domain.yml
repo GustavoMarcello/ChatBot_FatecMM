@@ -63,6 +63,7 @@ entities:
 - coordenacao_entity
 - direcao_entity
 - historia_entity
+- professores_entity
 #################### entidades vestibular###########
 - historico_entity
 - escolaridade_entity
@@ -143,7 +144,7 @@ responses:
 
   utter_faq/ask_horarios_cursos:
   - text: |-
-       • Horários dos curso são:
+       • Horários dos cursos são:
 
        • Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/projetos-mecanicos/horario-noite)
 
@@ -158,7 +159,7 @@ responses:
 
   utter_faq/ask_projeto_pedagogico:
   - text: |-
-       •	Projeto pedagógico dos curso são:
+       •	Projeto pedagógico dos cursos são:
 
        •	Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ-PEDAG-PROJETOS.pdf) 
 
@@ -175,6 +176,8 @@ responses:
   - text: |-
       Para visualizar o calendário escolar
       [clique aqui](https://www.fatecmm.edu.br/index.php/calendario-escolar)
+
+      
   utter_faq/ask_estagio_supervisionado:
   - text: |-
       O estágio é um conjunto de atividades de aprendizagem de cunho profissional, social e cultural que são proporcionadas ao estudante pela participação em situações reais de vida e de trabalho relacionados à sua área. 
@@ -365,7 +368,7 @@ responses:
 
 
   utter_faq/ask_duracao_curso:
-  - text: Compromissados com o sistema produtivo, os cursos em nível superior oferecidos pela FATEC possuem currículos flexíveis, compostos por disciplinas de formação básica e humanística, de apoio tecnológico e de formação específica, de acordo com a área de atuação do profissional a ser formado. São cursos com 3 anos de duração, o que não impede que o aluno prossiga seus estudos em nível de pós-graduação.
+  - text: São cursos de nível superior com 3 anos de duração, o que não impede que o aluno prossiga seus estudos em nível de pós-graduação.
 
 
   utter_faq/ask_valor_curso:
@@ -395,7 +398,7 @@ responses:
 
 
   utter_faq/ask_regulamento:
-  - text: Para acessar o Regulamento dos cursos Geral dos Cursos de Graduação, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Regulamento_Cursos.pdf)
+  - text: Para acessar o regulamento geral dos cursos de graduação, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Regulamento_Cursos.pdf)
 
 
   utter_faq/ask_mec:
@@ -555,17 +558,20 @@ responses:
   utter_faq/ask_historia:
   - text: |-
       Para mais informações sobre a história da **Fatec Mogi Mirim**, [clique aqui](https://fatecmm.edu.br/index.php/historia)
+
+  utter_faq/ask_professores:
+  - text: |-
+      Para mais informações sobre professores da **Fatec Mogi Mirim**, [clique aqui](https://www.fatecmm.edu.br/index.php/professores)
+
     
 
   utter_faq/ask_resposta_nova:
-  - text: "A qualquer momento digite sua dúvida!"
+  - text: "Posso te ajudar em algo mais!"
   - text: "Se tiver outra pergunta digite abaixo!"
-  - text: "Estou à sua disposição, pode perguntar!"
-  - text: "Deixe sua dúvida que responderemos em seguida!"
+  - text: "Estou à sua disposição para te ajudar!"
 
 
  ######### utters vestibular ##############
-
   utter_faq/ask_matricula_sem_historico:
   - text: |-
       No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o 
@@ -636,7 +642,7 @@ responses:
   utter_faq/ask_vestibular:
   - text: |-
       Vestibular é um processo seletivo que seleciona candidatos para as Faculdades de Tecnologia do Estado (Fatecs), neste semestre por conta da pandemia do COVID-19, 
-      o processo classificatório será realizado mediante análise de rendimento escolar para os Cursos Superiores de Tecnologia.
+      o processo classificatório será realizado mediante análise de rendimento escolar para os cursos superiores de tecnologia.
       Não será aplicada prova presencial para o presente Processo Seletivo.
 
 

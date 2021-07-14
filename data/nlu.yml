@@ -250,6 +250,9 @@ nlu:
     - [sobre estagio](estagio_supervisionado_entity)
     - [horario da orientação de estágio](estagio_supervisionado_entity)
     - [documentos para estágio](estagio_supervisionado_entity)
+    - Preciso saber sobre o [escritório de carreiras](estagio_supervisionado_entity)
+    - Preciso saber sobre o [escritório de carreira](estagio_supervisionado_entity)
+    - Preciso saber sobre o [escritorio carreira](estagio_supervisionado_entity)
 
 
 - intent: faq/ask_tcc_tgg
@@ -593,6 +596,9 @@ nlu:
     - [Projetos Mecânicos são reconhecido pelo MEC](mec_projeto_entity)
     - Qual a [grade de Projetos](mec_projeto_entity)?
     - Qual a [grade projetos mecânicos](mec_projeto_entity)?
+    - Quais são as [disciplinas de projetos mecânicos](mec_projeto_entity)?
+    - Quais são as [materias de projetos mecânicos](mec_projeto_entity)?
+    - Quais os [conteúdos de projetos mecânicos](mec_projeto_entity)?
 
 
 - intent: faq/ask_mec_fabricacao
@@ -787,7 +793,16 @@ nlu:
     - qual a [historia fatec](historia_entity)
     - qual a [historia faculdade](historia_entity)
     - qual a [historia](historia_entity)
+    - qual a [historia da fatec](historia_entity)
+    - qual a [historia da faculdade](historia_entity)
 
+- intent: faq/ask_professores
+  examples: |
+    - qual o [professor](professores_entity) da fatec
+    - quais são os [professores](professores_entity) da fatec
+    - qual os [prof](professores_entity) da fatec
+    - quais as [professoras](professores_entity) da fatec
+    - qual a [professora](professores_entity) da fatec
 
 
 - intent: fallback_intent
