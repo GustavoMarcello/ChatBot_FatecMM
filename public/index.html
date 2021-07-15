@@ -599,8 +599,8 @@
               language: "pt"
             },
             initPayload: "/start",
-            //socketUrl: "http://localhost:5005/",
-            socketUrl: "http://ba9324837f13.ngrok.io",
+            socketUrl: "http://localhost:5005/",
+            //socketUrl: "http://ba9324837f13.ngrok.io",
             socketPath: "/socket.io/",
             customData: {
               useId: "123"
@@ -822,20 +822,22 @@
     height: 60px;
     margin: 5px;
     width: 130px;
-    box-sizing: border-box;
-    animation: go-back 0.5s infinite alternate;
-    -moz-animation-iteration-count: 20;
-    -webkit-animation-iteration-count: 20;
-    animation-iteration-count: 20;
-    
+    box-sizing: border-box; 
+}
+
+.rw-open-launcher {
+  animation: go-back 0.5s infinite alternate;
+  -moz-animation-iteration-count: 20;
+  -webkit-animation-iteration-count: 20;
+  animation-iteration-count: 20;
 }
 
 .rw-close-launcher.rw-default {
-    width: 30px!important;
+    width: 40px!important;
     border-radius: 50%;
     box-shadow: 0 0px 15px 2px #000;
     background-color:#A92929;
-    padding: 2px;
+    padding: 10px;
 }
 @keyframes go-back {
       from {
