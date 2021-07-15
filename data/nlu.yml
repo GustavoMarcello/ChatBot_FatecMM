@@ -1175,6 +1175,9 @@ nlu:
     - qual é o [calendário](etapas_processo_seletivo_entity) do processo seletivo
     - quais as principais [datas](etapas_processo_seletivo_entity)
     - qual a [data](etapas_processo_seletivo_entity)
+    - qual a [data do vestibular](etapas_processo_seletivo_entity)
+    - qual a [data](etapas_processo_seletivo_entity) do [proximo vestibular](etapas_processo_seletivo_entity)
+    - quando vai ter o [próximo vestibular](etapas_processo_seletivo_entity)
 
 
 - intent: faq/ask_prova

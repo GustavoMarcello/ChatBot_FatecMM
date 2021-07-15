@@ -376,7 +376,6 @@ responses:
   utter_faq/ask_valor_curso:
   - text: As Faculdades de Tecnologia –FATEC – mantidas pelo Centro Paula Souza são instituições públicas de ensino superior que oferecem cursos de graduação em tecnologia **GRATUITOS**, devidamente reconhecidos, estruturados e desenvolvidos para atender os segmentos atuais e emergentes da atividade tanto industrial como do setor de serviços, com foco na constante evolução tecnológica.
 
-  
   utter_faq/ask_abono_faltas:
   - text: |-
       Não há **abono de faltas**, mais Compensação de ausência às aulas por meio da realização de exercícios domiciliares nos termos do decreto-lei no. 1.044/69 e Lei 6.202/75. Os alunos portadores de doenças infectocontagiosas ou traumatismos devem requerer os benefícios previstos pelo decreto-lei no. 1.044 de 21/10/1969, desde que o afastamento seja igual ou superior a 15 (quinze) dias.
@@ -710,6 +709,8 @@ responses:
        • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
          
        • Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
+       
+       • Os vestibulares da Fatec acontecem semestralmente e o cronograma com datas é divulgado no site do vestibular [clique aqui](vestibularfatec.com.br).
 
 
   utter_faq/ask_prova:
