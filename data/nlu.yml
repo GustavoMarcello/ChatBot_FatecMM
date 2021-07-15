@@ -471,11 +471,12 @@ nlu:
 - intent: faq/ask_rematricula
   examples: |
     - como [faço a rematrícula](rematricula_entity)?
-    - quando é a [rematricula](rematricula_entity)
-    - quando é o [período rematricula](rematricula_entity)
-    - quando é o [periodo de rematricula](rematricula_entity)
-    - quando é a [etapa de rematricula](rematricula_entity)
-    - quando é o [decorrer da rematricula](rematricula_entity)
+    - quando é a [rematricula](rematricula_entity)?
+    - quando são as [rematriculas](rematricula_entity)?
+    - quando é o [período rematricula](rematricula_entity)?
+    - quando é o [periodo de rematricula](rematricula_entity)?
+    - quando é a [etapa de rematricula](rematricula_entity)?
+    - quando é o [decorrer da rematricula](rematricula_entity)?
     - qual a [data de rematricula](rematricula_entity)?
     - preciso [realizar a rematrícula](rematricula_entity).
     - onde tenho que fazer [minha rematrícula](rematricula_entity)?
@@ -497,11 +498,11 @@ nlu:
     - Quais os [cursos são oferecidos](cursos_ofericidos_entity)?
     - Qual [curso oferece](cursos_ofericidos_entity)?
     - [Cursos oferecidos](cursos_ofericidos_entity)?
-    - [cursos da fatec](cursos_ofericidos_entity)
-    - [curso da fatec](cursos_ofericidos_entity)
-    - [faculdade do que](cursos_ofericidos_entity)
-    - [quais são os cursos](cursos_ofericidos_entity) da fatec
-    - que [curso tem](cursos_ofericidos_entity) da fatec
+    - [cursos da fatec](cursos_ofericidos_entity).
+    - [curso da fatec](cursos_ofericidos_entity).
+    - [faculdade do que](cursos_ofericidos_entity)?
+    - [quais são os cursos](cursos_ofericidos_entity) da fatec?
+    - que [curso tem](cursos_ofericidos_entity) da fatec?
 
 
 - intent: faq/ask_historico_escolar
@@ -513,7 +514,7 @@ nlu:
     - Gostaria de saber sobre o [meu histórico escolar](historico_escolar_entity)?
     - [preciso do meu histórico](historico_escolar_entity)
     - [preciso do histórico](historico_escolar_entity)
-    - [necessito histórico](historico_escolar_entity)
+    - [necessito histórico](historico_escolar_entity)''
 
 
 - intent: faq/ask_duracao_curso
@@ -804,6 +805,24 @@ nlu:
     - quais as [professoras](professores_entity) da fatec
     - qual a [professora](professores_entity) da fatec
 
+- intent: faq/ask_integralizacao
+  examples: |
+    - qual o prazo para [integralização](integralizacao_entity) das disciplinas?
+    - quanto tempo para [integralizacao](integralizacao_entity) do curso?
+    - período limite para [integralizar](integralizacao_entity) o curso?
+    - período limite para [totalizar](integralizacao_entity) o curso?
+    - qual o prazo máximo para a [totalização](integralizacao_entity) do curso?
+    - qual o tempo mínimo para [terminar](integralizacao_entity) a faculdade?
+    - qual o período máximo para [concluir](integralizacao_entity)  a graduação?
+    - tem limite de tempo para [conclusão](integralizacao_entity)?
+
+- intent: faq/ask_destrancar
+  examples: |
+    - preciso [destrancar](destrancar_entity) minha matrícula
+    - preciso fazer o [destrancamento](destrancar_entity) de minha matrícula
+    - como faço para [reabrir](destrancar_entity) minha matricula.
+    - minha matricula está [trancada](destrancar_entity), como faço para [reabrir](destrancar_entity)?
+
 
 - intent: fallback_intent
   examples: |
@@ -861,65 +880,11 @@ nlu:
     - bonito
     - bonitão
     - ainda da aula
-    - mano
     - jhow
     - show
-    - a
-    - b
-    - c
-    - d
-    - e
-    - f
-    - g
-    - h
-    - i
-    - j
-    - k
-    - l
-    - m
-    - o
-    - p
-    - q
-    - r
-    - t
-    - u
-    - v
-    - w
-    - x
-    - y
-    - z
-    - ,
-    - +
-    - -
-    - *
-    - ?
-    - ;
-    - .
-    - =
-    - \
-    - /
-    - *
-    - -
-    - [
-    - ]
-    - (
-    - )
-    - {
-    - }
-    - ´
-    - '
-    - "
-    - ~
-    - Ç
-    - ^
-    - :
-    - |
-    - <
-    - >
+
 
 ###################### CHAT VESTIBULAR ######################################
-
-
 - intent: faq/ask_matricula_sem_historico 
   examples: |
     - estou [sem o histórico](historico_entity) escolar
