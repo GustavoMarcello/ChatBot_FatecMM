@@ -64,7 +64,9 @@ entities:
 - direcao_entity
 - historia_entity
 - professores_entity
-#################### entidades vestibular###########
+- integralizacao_entity
+- destrancar_entity
+#################### entidades vestibular####################
 - historico_entity
 - escolaridade_entity
 - vestibular_novamente_entity
@@ -106,6 +108,8 @@ responses:
   - text: Obrigado volte sempre!
   - text: Obrigado até logo!
   - text: Obrigado fico feliz por ter usado nosso bot!
+
+
   utter_help:
   - text: "Faça uma pergunta!"
 
@@ -144,32 +148,32 @@ responses:
 
   utter_faq/ask_horarios_cursos:
   - text: |-
-       • Horários dos cursos são:
+      • Horários dos cursos são:
 
-       • Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/projetos-mecanicos/horario-noite)
+      • Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/projetos-mecanicos/horario-noite)
 
-       • Fabricação Mecânica, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/fabricacao-mecanica/horario-manha-fabricacao) 
+      • Fabricação Mecânica, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/fabricacao-mecanica/horario-manha-fabricacao) 
 
-       • Análise de Desenvolvimento de Sistemas período manhã, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads/horario-manha)
+      • Análise de Desenvolvimento de Sistemas período manhã, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads/horario-manha)
 
-       • Análise de Desenvolvimento de Sistemas período noturno, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads/horario-noite) 
+      • Análise de Desenvolvimento de Sistemas período noturno, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads/horario-noite) 
 
-       • Mecatrônica Industrial, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/mecatronica-industrial/horario-tarde)
+      • Mecatrônica Industrial, acesse o link [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/mecatronica-industrial/horario-tarde)
 
 
   utter_faq/ask_projeto_pedagogico:
   - text: |-
-       •	Projeto pedagógico dos cursos são:
+       • Projeto pedagógico dos cursos são:
 
-       •	Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ-PEDAG-PROJETOS.pdf) 
+       • Projetos Mecânicos, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ-PEDAG-PROJETOS.pdf) 
 
-       •	Fabricação Mecânica, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Proj_Fabricacao_Mecanica.pdf) 
+       • Fabricação Mecânica, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Proj_Fabricacao_Mecanica.pdf) 
 
-       •	Análise de Desenvolvimento de Sistemas, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ_PEDAG_ADS_2011.pdf)
+       • Análise de Desenvolvimento de Sistemas, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/PROJ_PEDAG_ADS_2011.pdf)
 
-       •	Gestão Empresarial - EaD, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Projeto_Ped_Gestao_Empresarial.pdf) 
+       • Gestão Empresarial - EaD, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Projeto_Ped_Gestao_Empresarial.pdf) 
 
-       •	Mecatrônica Industrial, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Mecatronica_Industrial_Mogi%20Mirim_2017.pdf)
+       • Mecatrônica Industrial, acesse o link [clique aqui](https://www.fatecmm.edu.br/arquivos/Mecatronica_Industrial_Mogi%20Mirim_2017.pdf)
 
 
   utter_faq/ask_calendario_escolar:
@@ -182,39 +186,38 @@ responses:
   - text: |-
       O estágio é um conjunto de atividades de aprendizagem de cunho profissional, social e cultural que são proporcionadas ao estudante pela participação em situações reais de vida e de trabalho relacionados à sua área. 
 
-       O aluno deve ver no estágio a oportunidade de vivenciar o que aprendeu nas aulas e, como consequência, diferenciar-se na sua formação e garantir sua empregabilidade. 
+      O aluno deve ver no estágio a oportunidade de vivenciar o que aprendeu nas aulas e, como consequência, diferenciar-se na sua formação e garantir sua empregabilidade. 
 
-       Para maiores informações [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
+      Para maiores informações [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
 
 
   utter_faq/ask_tcc_tgg:
   - text: |-
       O Trabalho de Graduação – TG, constitui-se numa atividade científica da graduação, de sistematização do conhecimento sobre um objeto de estudo ou problema relacionado ao curso. 
 
-       Deve ser desenvolvido mediante orientação e avaliação docente, cuja exigência é um requisito essencial e obrigatório para integralização curricular.
+      Deve ser desenvolvido mediante orientação e avaliação docente, cuja exigência é um requisito essencial e obrigatório para integralização curricular.
 
-       Para maiores informações [clique aqui](https://www.fatecmm.edu.br/index.php/trabalhos-de-graduacao)
+      Para maiores informações [clique aqui](https://www.fatecmm.edu.br/index.php/trabalhos-de-graduacao)
 
        
   utter_faq/ask_iniciaçao_cientifica:
   - text: |-
       A Iniciação Científica é uma modalidade de pesquisa desenvolvida por estudantes dos cursos de graduação, sob a orientação de um(a) professor(a)-pesquisador(a).
 
-       O termo iniciação é usado por representar, usualmente, a primeira experiência dos estudantes com atividades de pesquisa acadêmica.
+      O termo iniciação é usado por representar, usualmente, a primeira experiência dos estudantes com atividades de pesquisa acadêmica.
 
-       A Direção, as Coordenadorias de Cursos e a CEPE (Câmara de Ensino Pesquisa e Extensão) da Fatec de Mogi Mirim “Arthur de Azevedo”, informam que foi aprovada pelo Centro Paula Souza a possibilidade de equivalência de Iniciação Científica como Estágio Supervisionado, conforme prevê a LEI Nº 11.788, de 25 de setembro de 2008 e Memorando Circular 18/2020 CESU, expedido em 19/06/2020. 
+      A Direção, as Coordenadorias de Cursos e a CEPE (Câmara de Ensino Pesquisa e Extensão) da Fatec de Mogi Mirim “Arthur de Azevedo”, informam que foi aprovada pelo Centro Paula Souza a possibilidade de equivalência de Iniciação Científica como Estágio Supervisionado, conforme prevê a LEI Nº 11.788, de 25 de setembro de 2008 e Memorando Circular 18/2020 CESU, expedido em 19/06/2020. 
 
-       Para saber mais sobre Iniciação Científica
-      [clique aqui](https://monitoria.fatecmm.edu.br/?cepe)
+       Para saber mais sobre Iniciação Científica [clique aqui](https://monitoria.fatecmm.edu.br/?cepe)
 
 
   utter_faq/ask_equivalencia_estagio:
   - text: |-
       A equivalência de estágio pode se dar de duas formas:
 
-       Por EXPERIÊNCIA PROFISSIONAL – Pode solicitar equivalência quem já trabalha na área de estudo, preenchendo o requerimento (Processo), conforme modelo disponível em [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
+      Por EXPERIÊNCIA PROFISSIONAL – Pode solicitar equivalência quem já trabalha na área de estudo, preenchendo o requerimento (Processo), conforme modelo disponível em [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
 
-       Por INICIAÇÃO CIENTÍFICA – Pode solicitar equivalência quem realizou projeto de IC submetido à CEPE – Câmara de Ensino Pesquisa e Extensão da Fatec de Mogi Mirim e cujo relatório final tenha sido aprovado pela mesma, que emitirá documento comprobatório (certificação). O aluno interessado na referida validação, se encarregará de encaminhar a certificação ao Núcleo de Estágio, juntamente com o requerimento (Processo), conforme modelo disponível em [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
+      Por INICIAÇÃO CIENTÍFICA – Pode solicitar equivalência quem realizou projeto de IC submetido à CEPE – Câmara de Ensino Pesquisa e Extensão da Fatec de Mogi Mirim e cujo relatório final tenha sido aprovado pela mesma, que emitirá documento comprobatório (certificação). O aluno interessado na referida validação, se encarregará de encaminhar a certificação ao Núcleo de Estágio, juntamente com o requerimento (Processo), conforme modelo disponível em [clique aqui](https://www.fatecmm.edu.br/index.php/escritorio-de-carreiras?id=433)
 
 
   utter_faq/ask_vagas_estagio:
@@ -285,11 +288,11 @@ responses:
   - text: |-
       Após a Conclusão do Curso e Colação de Grau (obrigatória), o formando receberá na solenidade, o Atestado de Conclusão do Curso.
 
-       Não é necessário o formado requerer a expedição do Diploma.
+      Não é necessário o formado requerer a expedição do Diploma.
 
-       O mesmo será providenciado pela Diretora Acadêmica que será confeccionado juntamente com o CEETEPS.
+      O mesmo será providenciado pela Diretora Acadêmica que será confeccionado juntamente com o CEETEPS.
        
-       O prazo de confecção de Diploma é de aproximadamente 10 meses.
+      O prazo de confecção de Diploma é de aproximadamente 10 meses.
 
 
   utter_faq/ask_aproveitamento_estudos:
@@ -314,8 +317,7 @@ responses:
 
   utter_faq/ask_faltas_notas:
   - text: |-
-     As faltas são divulgadas semanalmente ou mensalmente, pelo professor da disciplina no sistema SIGA. As notas finais serão divulgadas no sistema SIGA somente no final do semestre em data especificada no Calendário Escolar, estando sujeita a alterações. As notas durante o semestre deverão ser verificadas pelo aluno junto ao professor ou pelo sistema, para aquelas disciplinas onde o professor determina notas parciais. Para maiores informações
-       [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
+     As faltas são divulgadas semanalmente ou mensalmente, pelo professor da disciplina no sistema SIGA. As notas finais serão divulgadas no sistema SIGA somente no final do semestre em data especificada no Calendário Escolar, estando sujeita a alterações. As notas durante o semestre deverão ser verificadas pelo aluno junto ao professor ou pelo sistema, para aquelas disciplinas onde o professor determina notas parciais. Para maiores informações [clique aqui](https://siga.cps.sp.gov.br/aluno/login.aspx)
 
 
   utter_faq/ask_matricula:
@@ -343,7 +345,7 @@ responses:
 
   utter_faq/ask_cursos_oferecidos:
   - text: |-
-      A Fatec de **Mogi Mirim Arthur** de Azevedo oferece os seguintes Cursos Superiores de Tecnologia em:
+      A Fatec de **Mogi Mirim Arthur de Azevedo** oferece os seguintes Cursos Superiores de Tecnologia em:
 
       •	Análise e Desenvolvimento de Sistemas – Eixo Tecnológico: Informação e Comunicação – Para mais informações
        [clique aqui](https://www.fatecmm.edu.br/index.php/cursos/ads) 
@@ -368,12 +370,11 @@ responses:
 
 
   utter_faq/ask_duracao_curso:
-  - text: São cursos de nível superior com 3 anos de duração, o que não impede que o aluno prossiga seus estudos em nível de pós-graduação.
+  - text: O curso tem duração mínina de 6 semestres (3 anos) e parzo máximo de 10 semestres (5 anos).
 
 
   utter_faq/ask_valor_curso:
   - text: As Faculdades de Tecnologia –FATEC – mantidas pelo Centro Paula Souza são instituições públicas de ensino superior que oferecem cursos de graduação em tecnologia **GRATUITOS**, devidamente reconhecidos, estruturados e desenvolvidos para atender os segmentos atuais e emergentes da atividade tanto industrial como do setor de serviços, com foco na constante evolução tecnológica.
-
 
   
   utter_faq/ask_abono_faltas:
@@ -446,8 +447,7 @@ responses:
   utter_faq/ask_troca_curso:
   - text: |-
       Não há troca de curso no meio do semestre. Para alteração, é necessário se inscrever no Edital de Transferência ou prestar o processo seletivo vestibular.
-      Para maiores informações,
-      [clique aqui](https://www.fatecmm.edu.br/)
+      Para maiores informações, [clique aqui](https://www.fatecmm.edu.br/)
 
 
   utter_faq/ask_troca_turno:
@@ -499,7 +499,7 @@ responses:
 
   utter_faq/ask_resposta_sim:
   - text: |-
-     Digite sua pergunta!
+      Digite sua pergunta!
 
 
   utter_faq/ask_solicitacao_documento:
@@ -518,6 +518,7 @@ responses:
   utter_faq/ask_monitorias:
   - text: |-
       Para saber de Programa de monitorias [clique aqui](https://monitoria.fatecmm.edu.br/)
+
 
   utter_faq/ask_proficiencia_ingles:
   - text: |-
@@ -559,11 +560,23 @@ responses:
   - text: |-
       Para mais informações sobre a história da **Fatec Mogi Mirim**, [clique aqui](https://fatecmm.edu.br/index.php/historia)
 
+
   utter_faq/ask_professores:
   - text: |-
       Para mais informações sobre professores da **Fatec Mogi Mirim**, [clique aqui](https://www.fatecmm.edu.br/index.php/professores)
 
-    
+
+  utter_faq/ask_integralizacao:
+  - text: |-
+      O curso tem duração mínina de 6 semestres (3 anos) e parzo máximo de 10 semestres (5 anos).
+
+
+  utter_faq/ask_destrancar:
+  - text: |-
+      Não é necessário nenhum procedimento para destrancar a matricula.
+
+      Ela estará aberta automaticamente no dia estabelecido para rematrícula. 
+
 
   utter_faq/ask_resposta_nova:
   - text: "Posso te ajudar em algo mais!"
@@ -574,8 +587,7 @@ responses:
  ######### utters vestibular ##############
   utter_faq/ask_matricula_sem_historico:
   - text: |-
-      No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o 
-      Histórico fique pronto.
+      No momento você poderá utilizar a Declaração de Conclusão do Ensino Médio, até que o Histórico fique pronto.
 
 
   utter_faq/ask_escolaridade_publica:
@@ -595,15 +607,12 @@ responses:
 
   utter_faq/ask_aulas_remotas:
   - text: |-
-      Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), 
-      até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das 
-      aulas de forma presencial nas Fatecs.
+      Os Cursos Superiores de Tecnologia presenciais iniciarão as aulas de forma remota (online), até que as regras do isolamento social sejam flexibilizadas a ponto de tornar possível o retorno das aulas de forma presencial nas Fatecs.
   
 
   utter_faq/ask_idade_minima: 
   - text: |-
-      Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos 
-      na data de Matrícula.
+      Apenas para o Curso Superior de Tecnologia em Radiologia, é necessário que o candidato tenha no mínimo 18 anos na data de Matrícula.
 
 
   utter_faq/ask_permissao_vestibular:
@@ -613,23 +622,18 @@ responses:
 
   utter_faq/ask_candidato_estrangeiro:
   - text: |-
-      No que diz respeito a candidato estrangeiro ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a:
+      No que diz respeito a candidato **estrangeiro** ou que tenha realizado estudos no estrangeiro, existem as seguintes orientações quanto a
       DOCUMENTOS COMPROBATÓRIOS DAS NOTAS INSERIDAS NO SISTEMA DE INSCRIÇÃO:
         
-        • Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico 
-        Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de 
-        estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala 
-        numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem. 
+      • Para candidatos que concluíram o Ensino Médio que tenham realizado estudos equivalentes ao Ensino Médio, no todo ou em parte, no exterior: uploads do Histórico Escolar (frente e verso) contendo as notas finais de Matemática e Língua Oficial escolar equivalentes a 2ª série do Ensino Médio e do parecer de equivalência de estudos realizados no exterior emitido pela Secretaria da Educação ou Conselho Estadual de Educação (frente e verso) e Declaração de Conversão de Notas para a escala numérica de 0,00 a 10,00, assinada por agente escolar da escola de origem. 
 
-        • Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; 
+      • Os documentos em língua estrangeira deverão estar vistados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial; 
       
-        • Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; 
+      • Os documentos deverão conter nome, carimbo e assinatura (manuscrita, digital ou eletrônica) do responsável da instituição, assim como dados de contato; 
       
-        • Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; 
+      • Em hipótese alguma será aceita documentação encaminhada por via postal, correio eletrônico ou meio diferente do definido neste Manual; 
       
-        • As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, 
-        com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos 
-        documentos.
+      • As notas inseridas no sistema de inscrição pelos candidatos serão conferidas pela instituição responsável pela realização do Processo Seletivo Vestibular, com base na documentação comprobatória apresentada pelo candidato. Caso haja divergência nas informações, serão consideradas as notas constantes nos respectivos documentos.
 
 
   utter_faq/ask_pagamento_taxa_inscricao:
@@ -653,8 +657,7 @@ responses:
 
   utter_faq/ask_upload:
   - text: |- 
-        Significa enviar arquivos para um servidor, ou seja, você vai enviar, no ato da inscrição, os seus documentos 
-        para o sistema de inscrição do Vestibular da Fatec, para que esses documentos sejam analisados posteriormente.
+      Significa enviar arquivos para um servidor, ou seja, você vai enviar, no ato da inscrição, os seus documentos para o sistema de inscrição do Vestibular da Fatec, para que esses documentos sejam analisados posteriormente.
 
 
   utter_faq/ask_pagamento_efetivado:
@@ -678,47 +681,36 @@ responses:
 
   utter_faq/ask_etapas_processo_seletivo:
   - text: |-
-        O Processo Seletivo Vestibular do 2º semestre de 2021 seguirá o seguinte cronograma:
+       O Processo Seletivo Vestibular do 2º semestre de 2021 seguirá o seguinte cronograma:
 
-        • De 10-05-2021 até as 15 horas do dia 11-06-2021 – Inscrições para o Processo Seletivo
+       • De 10-05-2021 até as 15 horas do dia 11-06-2021 – Inscrições para o Processo Seletivo
 
-        • Dia 16-06-2021 a partir das 15 horas - Divulgação da Lista preliminar
+       • Dia 16-06-2021 a partir das 15 horas - Divulgação da Lista preliminar
 
-        • Dias 17-06 e 18-06-2021 - Período para recurso contra a lista preliminar de inscrições
+       • Dias 17-06 e 18-06-2021 - Período para recurso contra a lista preliminar de inscrições
 
-        • Dia 23-06-2021 a partir das 15 horas - Divulgação do resultado dos recursos
+       • Dia 23-06-2021 a partir das 15 horas - Divulgação do resultado dos recursos
 
-        • Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral 
+       • Dia 30-06-2021 a partir das 15 horas - Divulgação da lista de classificação geral 
 
-        • Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista 
+       • Dias 06-07, 07-07 e 08-07-2021 - Matrícula da 1ª lista 
 
-        • Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
+       • Dia 14-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista 
 
-        • Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
+       • Dia 15-07-2021 - Período para possibilidade de acerto de documentação 
  
-        • Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista
+       • Dia 19-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 1ª lista
 
-        • Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista
+       • Dia 26-07-2021 a partir das 15 horas - Divulgação da 2ª lista
 
-        • Dia 27-07-2021 - Matrícula da 2ª lista 
+       • Dia 27-07-2021 - Matrícula da 2ª lista 
 
-        • Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
+       • Dia 29-07-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista 
         
-        • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
+       • Dia 30-07-2021 - Período para possibilidade de acerto de documentação de matrícula da 2ª lista 
          
-        • Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
-#   utter_faq/ask_quem_pode_tentar_vaga_nos_cursos_superiores:
-#   - text: |-
-#       O candidato que concluiu o Ensino Médio e que possua o Histórico Escolar com Certificado de conclusão do Ensino Médio.
-# # Para o candidato que concluiu o Ensino Médio regular: possuir Histórico Escolar com Certificado de conclusão do Ensino 
-# # Médio.
+       • Dia 03-08-2021 a partir das 15 horas - Divulgação de matrículas aprovadas da 2ª lista
 
-#   utter_faq/ask_fiz_minha_inscricao_vestibular_quero_mudar_curso:
-#   - text: |-
-#       Você não pode alterar o curso escolhido depois de ter feito a inscrição, nenhuma alteração nos campos "Fatec", "Curso e Período"
-#       e no Sistema de Pontuação Acrescida são permitidas. 
-# # Não serão permitidas, em hipótese alguma, alterações ou inclusões na Ficha de Inscrição, principalmente nos campos “Fatec”, 
-# # “curso e período” e no Sistema de Pontuação Acrescida.
 
   utter_faq/ask_prova:
   - text: |-
@@ -729,38 +721,41 @@ responses:
 
   utter_faq/ask_redes_sociais:
   - text: |-
-        Você pode nos seguir em:
+       Você pode nos seguir em:
 
-        [LinkedIn](https://www.linkedin.com/school/fatec163/)
+       [LinkedIn](https://www.linkedin.com/school/fatec163/)
 
-        [Facebook](https://www.facebook.com/fatecmm/)    
+       [Facebook](https://www.facebook.com/fatecmm/)    
 
-        [Instagram](https://www.instagram.com/fatecmogimirim/)
+       [Instagram](https://www.instagram.com/fatecmogimirim/)
 
 
   utter_faq/ask_sobre_o_curso:
     - text: |- 
-        Sobre os cursos da Fatec é importante lembrar que:
+       Sobre os cursos da Fatec é importante lembrar que:
 
-          • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
+       • Não é possível trocar o curso por outro, a não ser que você preste novamente o vestibular
 
-          • Não é possível trocar o curso por outro após a realização da inscrição para o vestibular
+       • Não é possível trocar o curso por outro após a realização da inscrição para o vestibular
   
-          • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
+       • Não é possível cursar dois cursos da Fatec simultâneamente, nem trancar o atual para iniciar outro
 
 
   utter_faq/ask_sobre_documentos:
     - text: |- 
-        Sobre documentos é importante lembrar que:
+       Sobre documentos é importante lembrar que:
   
-        • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
+       • Não são aceitos em hipótese alguma os documentos expedidos por Ordem ou Conselho profissional, tais como OAB, Crea, Coren, CRC e outros.
   
-        • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
+       • Em caso da perda do RG, você poderá usar a segunda via até que o mesmo fique pronto.
   
-        • Em caso da perda do CPF, você pode usar:
-        - CPF documento exclusivo;
-        - RG, desde que contenha o número do CPF;
-        - Carteira Nacional de Habilitação CNH.
+       • Em caso da perda do CPF, você pode usar:
+
+       - CPF documento exclusivo;
+
+       - RG, desde que contenha o número do CPF;
+
+       - Carteira Nacional de Habilitação CNH.
       
 
 actions:
